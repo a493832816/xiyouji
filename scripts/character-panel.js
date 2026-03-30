@@ -1,12 +1,54 @@
 /**
- * 人物架构图面板模块
+ * 人物架构图面板模块 - 支持翻转卡片
  * 用于在 POI 详情中展示相关人物信息
  */
 
+// 缓存人物数据
+let characterDataCache = null;
+
+/**
+ * 加载人物数据
+ */
+async function loadCharacterData() {
+  if (characterDataCache) {
+    return characterDataCache;
+  }
+  try {
+    const response = await fetch('./character-data.json');
+    characterDataCache = await response.json();
+    return characterDataCache;
+  } catch (error) {
+    console.error('加载人物数据失败:', error);
+    return [];
+  }
+}
+
+/**
+ * 根据名称查找人物数据
+ */
+function findCharacterByName(data, name) {
+  // 处理一些名称映射
+  const nameMap = {
+    '沙僧（沙悟净）': ['沙僧（沙悟净）', '沙僧', '沙悟净'],
+    '唐僧（玄奘）': ['唐僧（玄奘）', '唐僧', '玄奘'],
+    '白无常（谢必安）': ['白无常（谢必安）', '白无常', '谢必安'],
+    '黑无常（范无救）': ['黑无常（范无救）', '黑无常', '范无救'],
+    '猪八戒': ['猪八戒', '天蓬元帅'],
+    '孙悟空': ['孙悟空', '齐天大圣', '斗战胜佛'],
+  };
+
+  const possibleNames = nameMap[name] || [name];
+
+  for (const n of possibleNames) {
+    const found = data.find(char => char.name === n || char.name.includes(n));
+    if (found) return found;
+  }
+
+  return null;
+}
+
 /**
  * 根据势力获取对应的 CSS 类名
- * @param {string} faction - 势力名称
- * @returns {string} CSS 类名
  */
 function getFactionClass(faction) {
   const factionMap = {
@@ -14,20 +56,18 @@ function getFactionClass(faction) {
     '灵山': 'ling-shan',
     '地府': 'difu',
     '龙宫': 'longgong',
-    '人间': 'renjian'
+    '人间': 'renjian',
+    '妖界': 'yaojie'
   };
   return factionMap[faction] || 'default';
 }
 
 /**
  * 按品级分组角色
- * @param {Array} characters - 角色数组
- * @returns {Map} 品级 → 角色列表的映射
  */
-function groupByRank(characters) {
+function groupByRank(characters, characterData) {
   const groups = new Map();
-  
-  // 定义品级排序权重（品级越高，权重越小，排在前面）
+
   const rankWeights = {
     '天仙·至尊': 1,
     '天仙·帝君': 2,
@@ -69,27 +109,37 @@ function groupByRank(characters) {
     '地府·差役': 38,
     '人间·帝王': 39,
     '人间·圣僧': 40,
-    '斗战胜佛': 41,
-    '净坛使者': 42,
-    '金身罗汉': 43,
-    '八部天龙': 44,
-    '天庭·星官': 45,
-    '妖怪·顶级': 46
+    '人间·王子': 41,
+    '人间·公主': 42,
+    '人间·僧人': 43,
+    '斗战胜佛': 44,
+    '净坛使者': 45,
+    '金身罗汉': 46,
+    '八部天龙': 47,
+    '天庭·星官': 48,
+    '妖怪·顶级': 49,
+    '地点': 100,
+    '默认': 99
   };
 
-  characters.forEach(char => {
-    const rank = char.rank || '其他';
+  characters.forEach(name => {
+    const charData = findCharacterByName(characterData, name);
+    const rank = charData?.rank || '默认';
+
     if (!groups.has(rank)) {
       groups.set(rank, []);
     }
-    groups.get(rank).push(char);
+    groups.get(rank).push({
+      name,
+      data: charData
+    });
   });
 
   // 按权重排序分组
   const sortedGroups = new Map();
   const sortedRanks = Array.from(groups.keys()).sort((a, b) => {
-    const weightA = rankWeights[a] || 999;
-    const weightB = rankWeights[b] || 999;
+    const weightA = rankWeights[a] || 99;
+    const weightB = rankWeights[b] || 99;
     return weightA - weightB;
   });
 
@@ -101,77 +151,124 @@ function groupByRank(characters) {
 }
 
 /**
- * 创建角色卡片
- * @param {Object} character - 角色数据
- * @returns {HTMLElement} 角色卡片元素
+ * 创建翻转卡片
  */
-function createCharacterCard(character) {
-  const card = document.createElement('div');
-  card.className = 'character-card';
+function createFlipCard(charInfo) {
+  const { name, data } = charInfo;
+  const faction = data?.faction || '人间';
+  const title = data?.title || '';
+  const desc = data?.desc || '暂无详细描述';
+  const image = data?.image || '';
+  const tags = data?.tags || [];
+  const rank = data?.rank || '';
 
-  // 头像
+  const card = document.createElement('div');
+  card.className = 'flip-card';
+  card.setAttribute('tabindex', '0');
+
+  const inner = document.createElement('div');
+  inner.className = 'flip-card-inner';
+
+  // 正面 - 头像和名称
+  const front = document.createElement('div');
+  front.className = `flip-card-front faction-${getFactionClass(faction)}`;
+
   const avatar = document.createElement('div');
-  avatar.className = `character-avatar faction-${getFactionClass(character.faction)}`;
-  
-  if (character.image) {
+  avatar.className = 'flip-card-avatar';
+
+  if (image) {
     const img = document.createElement('img');
-    img.src = character.image;
-    img.alt = character.name;
+    img.src = image;
+    img.alt = name;
     img.loading = 'lazy';
+    img.onerror = () => {
+      img.style.display = 'none';
+      avatar.textContent = name.charAt(0);
+    };
     avatar.appendChild(img);
   } else {
-    avatar.textContent = character.name.charAt(0);
+    avatar.textContent = name.charAt(0);
   }
 
-  // 信息区
-  const info = document.createElement('div');
-  info.className = 'character-info';
+  const nameEl = document.createElement('div');
+  nameEl.className = 'flip-card-name';
+  nameEl.textContent = name;
 
-  // 姓名
-  const name = document.createElement('h4');
-  name.className = 'character-name';
-  name.textContent = character.name;
+  const titleEl = document.createElement('div');
+  titleEl.className = 'flip-card-title';
+  titleEl.textContent = title;
 
-  // 称号
-  if (character.title) {
-    const title = document.createElement('p');
-    title.className = 'character-title';
-    title.textContent = character.title;
-    info.appendChild(title);
-  }
+  const rankEl = document.createElement('div');
+  rankEl.className = 'flip-card-rank';
+  rankEl.textContent = rank;
 
-  // 简介
-  if (character.desc) {
-    const desc = document.createElement('p');
-    desc.className = 'character-desc';
-    desc.textContent = character.desc;
-    info.appendChild(desc);
-  }
+  const hint = document.createElement('div');
+  hint.className = 'flip-card-hint';
+  hint.textContent = '点击查看详情';
 
-  // 标签
-  if (character.tags && character.tags.length > 0) {
-    const tags = document.createElement('div');
-    tags.className = 'character-tags';
-    character.tags.forEach(tagText => {
-      const tag = document.createElement('span');
-      tag.className = 'character-tag';
-      tag.textContent = tagText;
-      tags.appendChild(tag);
-    });
-    info.appendChild(tags);
-  }
+  front.appendChild(avatar);
+  front.appendChild(nameEl);
+  if (title) front.appendChild(titleEl);
+  if (rank) front.appendChild(rankEl);
+  front.appendChild(hint);
 
-  card.appendChild(avatar);
-  card.appendChild(info);
+  // 背面 - 详细信息
+  const back = document.createElement('div');
+  back.className = 'flip-card-back';
+
+  const backName = document.createElement('div');
+  backName.className = 'flip-card-back-name';
+  backName.textContent = name;
+
+  const backTitle = document.createElement('div');
+  backTitle.className = 'flip-card-back-title';
+  backTitle.textContent = title;
+
+  const backDesc = document.createElement('div');
+  backDesc.className = 'flip-card-back-desc';
+  backDesc.textContent = desc;
+
+  const backTags = document.createElement('div');
+  backTags.className = 'flip-card-back-tags';
+  tags.forEach(tag => {
+    const tagEl = document.createElement('span');
+    tagEl.className = 'flip-card-tag';
+    tagEl.textContent = tag;
+    backTags.appendChild(tagEl);
+  });
+
+  const backHint = document.createElement('div');
+  backHint.className = 'flip-card-back-hint';
+  backHint.textContent = '点击返回';
+
+  back.appendChild(backName);
+  if (title) back.appendChild(backTitle);
+  back.appendChild(backDesc);
+  if (tags.length > 0) back.appendChild(backTags);
+  back.appendChild(backHint);
+
+  inner.appendChild(front);
+  inner.appendChild(back);
+  card.appendChild(inner);
+
+  // 点击翻转
+  card.addEventListener('click', () => {
+    card.classList.toggle('flipped');
+  });
+
+  // 键盘支持
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      card.classList.toggle('flipped');
+    }
+  });
 
   return card;
 }
 
 /**
  * 创建分组区域
- * @param {string} rankName - 品级名称
- * @param {Array} characters - 角色列表
- * @returns {HTMLElement} 分组元素
  */
 function createCharacterGroup(rankName, characters) {
   const group = document.createElement('div');
@@ -197,12 +294,12 @@ function createCharacterGroup(rankName, characters) {
   header.appendChild(title);
   header.appendChild(count);
 
-  // 分组内容
+  // 分组内容 - 卡片网格
   const content = document.createElement('div');
-  content.className = 'character-group-content';
-  
-  characters.forEach(char => {
-    content.appendChild(createCharacterCard(char));
+  content.className = 'character-group-grid';
+
+  characters.forEach(charInfo => {
+    content.appendChild(createFlipCard(charInfo));
   });
 
   // 展开/折叠事件
@@ -218,15 +315,15 @@ function createCharacterGroup(rankName, characters) {
 
 /**
  * 渲染人物架构图面板
- * @param {HTMLElement} container - 容器元素
- * @param {Array} characters - 角色数组
- * @param {string} poiName - POI 名称
  */
-export function renderCharacterPanel(container, characters, poiName) {
+export async function renderCharacterPanel(container, characters, poiName) {
   if (!container) return;
 
   // 清空容器
   container.innerHTML = '';
+
+  // 加载人物数据
+  const characterData = await loadCharacterData();
 
   // 创建面板容器
   const panel = document.createElement('div');
@@ -259,7 +356,7 @@ export function renderCharacterPanel(container, characters, poiName) {
     content.appendChild(empty);
   } else {
     // 按品级分组
-    const groups = groupByRank(characters);
+    const groups = groupByRank(characters, characterData);
     groups.forEach((chars, rank) => {
       content.appendChild(createCharacterGroup(rank, chars));
     });
@@ -275,7 +372,6 @@ export function renderCharacterPanel(container, characters, poiName) {
 
 /**
  * 清除人物架构图面板
- * @param {HTMLElement} container - 容器元素
  */
 export function clearCharacterPanel(container) {
   if (!container) return;
