@@ -161,15 +161,14 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
     // 清空内容
     modalContent.innerHTML = '';
 
-    // 渲染人物面板
-    renderCharacterPanel(modalContent, point.characters || [], point.name);
+    // 渲染人物面板并获取关闭按钮
+    const closeBtn = renderCharacterPanel(modalContent, point.characters || [], point.name);
 
     // 显示弹框
     modalOverlay.classList.add('active');
     document.body.style.overflow = 'hidden';
 
     // 绑定关闭按钮
-    const closeBtn = modalContent.querySelector('.character-panel-close');
     if (closeBtn) {
       closeBtn.addEventListener('click', closeModal);
     }
