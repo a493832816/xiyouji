@@ -2,14 +2,17 @@ import { createMapTransformController } from "./map-controls.js";
 import { factionZones, legends, mapMeta, points, routePath, routePathMarkers, terrainPaths } from "./poi-data.js";
 import {
   renderMapLabels,
-  renderFactionZones
-  renderLegends
-  renderPois
-  renderRoute
+  renderFactionZones,
+  renderLegends,
+  renderPois,
+  renderRoute,
   renderTerrain
 } from "./map-renderer.js";
 import { findPoiById, formatTooltipText } from "./map-utils.js";
 import { renderCharacterPanel, clearCharacterPanel } from "./character-panel.js";
+
+// 热加载模块（仅开发环境）
+import './hot-reload.js';
 
 const mapViewport = document.getElementById("map-viewport");
 const mapStage = document.getElementById("map-stage");
