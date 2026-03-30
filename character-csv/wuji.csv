@@ -1,0 +1,7 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+wuji,乌鸡国,,地点,人间,西境小国,真王被妖道推入御花园井中三年
+wukong_wuji,孙悟空,wuji,斗战胜佛,人间,齐天大圣,救王辨明正邪
+tangseng_wuji,唐僧（玄奘）,wukong_wuji,人间·圣僧,人间,金蝉子转世·大唐圣僧,如来二弟子金蝉子转世
+zhubajie_wuji,猪八戒,tangseng_wuji,净坛使者,人间,原天蓬元帅,二徒弟
+shaseng_wuji,沙僧（沙悟净）,tangseng_wuji,金身罗汉,人间,原卷帘大将,三徒弟
+wenshu,文殊菩萨,wuji,佛教·菩萨,灵山,大智文殊,坐骑青毛狮子两次下凡作怪

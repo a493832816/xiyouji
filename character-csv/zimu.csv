@@ -1,0 +1,7 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+zimu,子母河,,地点,人间,西梁女国奇水,饮之可致男子受孕
+tangseng_zimu,唐僧（玄奘）,zimu,人间·圣僧,人间,大唐圣僧,饮水受孕
+zhubajie_zimu,猪八戒,zimu,净坛使者,人间,原天蓬元帅,饮水受孕
+wukong_zimu,孙悟空,zimu,斗战胜佛,人间,齐天大圣,求取落胎泉水
+guanyin_zimu,观音菩萨,zimu,佛教·菩萨,灵山,南海观世音,
+ruyi,如意真仙,zimu,散仙,人间,落胎泉守护者,牛魔王之弟

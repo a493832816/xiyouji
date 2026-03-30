@@ -1,0 +1,4 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+wanshoushan,万寿山,,地点,天庭,五庄观所倚之山,取"万寿"与人参果延寿之意
+zhenyuan_wanshou,镇元大仙,wanshoushan,地仙·至尊,天庭,地仙之祖,
+nanjishouxing,南极寿星,wanshoushan,天仙·散仙,天庭,南极仙翁,头上有大肉包的老寿星

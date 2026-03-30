@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+taoyuan,蟠桃山,,地点,天庭,蟠桃园所在,王母蟠桃园所在山域
+wangmu_taoyuan,王母娘娘,taoyuan,天仙·后妃,天庭,瑶池金母,掌管蟠桃园
+wukong_taoyuan,孙悟空,taoyuan,斗战胜佛,人间,齐天大圣,大闹蟠桃会
+chijiao_taoyuan,赤脚大仙,taoyuan,天仙,天庭,性格随和,被悟空骗走

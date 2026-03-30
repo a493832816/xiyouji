@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+lingyan,凌烟阁,,地点,天庭,云上琼楼玉宇,东胜神洲一侧缥缈仙凡交界的宫阙
+taibai_lingyan,太白金星,lingyan,天仙·文臣,天庭,玉帝殿前文臣,天庭情报总管
+riyoushen,日游神,lingyan,天仙·巡逻,天庭,白日巡视,白天巡视三界，记录人间善恶
+yeyoushen,夜游神,lingyan,天仙·巡逻,天庭,夜间巡视,夜间巡视三界，记录人间善恶

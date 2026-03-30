@@ -1,0 +1,528 @@
+[
+  {
+    "recordId": "lingxiao",
+    "name": "凌霄宝殿",
+    "type": "location",
+    "poiId": "lingxiao",
+    "children": [
+      {
+        "recordId": "yuhuang",
+        "name": "玉皇大帝",
+        "rank": "天仙·帝君",
+        "faction": "天庭",
+        "title": "三界之主",
+        "children": [
+          {"recordId": "wangmu", "name": "王母娘娘", "rank": "天仙·后妃", "faction": "天庭", "title": "瑶池金母"},
+          {
+            "recordId": "sanqing",
+            "name": "三清",
+            "rank": "天仙·至尊",
+            "faction": "天庭",
+            "children": [
+              {"recordId": "yuanshi", "name": "元始天尊", "rank": "天仙·至尊", "faction": "天庭"},
+              {"recordId": "lingbao", "name": "灵宝天尊", "rank": "天仙·至尊", "faction": "天庭"},
+              {"recordId": "taishang", "name": "太上老君", "rank": "天仙·至尊", "faction": "天庭"}
+            ]
+          },
+          {
+            "recordId": "tiansi",
+            "name": "四大天师",
+            "rank": "天仙·天师",
+            "faction": "天庭",
+            "children": [
+              {"recordId": "zhangdaoling", "name": "张道陵", "rank": "天仙·天师", "faction": "天庭"},
+              {"recordId": "gehong", "name": "葛洪", "rank": "天仙·天师", "faction": "天庭"},
+              {"recordId": "xuxun", "name": "许逊", "rank": "天仙·天师", "faction": "天庭"},
+              {"recordId": "qiuhongji", "name": "邱弘济", "rank": "天仙·天师", "faction": "天庭"}
+            ]
+          },
+          {"recordId": "taibai", "name": "太白金星", "rank": "天仙·文臣", "faction": "天庭", "title": "玉帝殿前文臣"},
+          {
+            "recordId": "wujiang",
+            "name": "武将系统",
+            "rank": "天仙·武将",
+            "faction": "天庭",
+            "children": [
+              {"recordId": "lijing", "name": "托塔天王李靖", "rank": "天仙·武将", "faction": "天庭", "title": "降魔大元帅"},
+              {"recordId": "nezha", "name": "哪吒", "rank": "天仙·武将", "faction": "天庭", "parentId": "lijing"},
+              {"recordId": "erlang", "name": "二郎神杨戬", "rank": "天仙·战将", "faction": "天庭"}
+            ]
+          },
+          {"recordId": "wanglinguan", "name": "王灵官", "rank": "天仙·佐使", "faction": "天庭", "title": "灵霄殿守卫"}
+        ]
+      }
+    ]
+  },
+  {
+    "recordId": "tianwang",
+    "name": "天王殿",
+    "type": "location",
+    "poiId": "tianwang",
+    "children": [
+      {"recordId": "tianwang_lijing", "name": "托塔天王李靖", "rank": "天仙·武将", "faction": "天庭", "title": "降魔大元帅"},
+      {"recordId": "tianwang_nezha", "name": "哪吒", "rank": "天仙·武将", "faction": "天庭", "parentId": "tianwang_lijing"},
+      {
+        "recordId": "zhence",
+        "name": "侦测系统",
+        "faction": "天庭",
+        "children": [
+          {"recordId": "qianliyan", "name": "千里眼", "rank": "天仙·侦测", "faction": "天庭"},
+          {"recordId": "shunfenger", "name": "顺风耳", "rank": "天仙·侦测", "faction": "天庭"}
+        ]
+      },
+      {
+        "recordId": "qixiang",
+        "name": "气象系统",
+        "faction": "天庭",
+        "children": [
+          {"recordId": "leigong", "name": "雷公", "rank": "天仙·天象", "faction": "天庭"},
+          {"recordId": "dianmu", "name": "电母", "rank": "天仙·天象", "faction": "天庭"},
+          {"recordId": "fengbo", "name": "风伯", "rank": "天仙·天象", "faction": "天庭"},
+          {"recordId": "yushi", "name": "雨师", "rank": "天仙·天象", "faction": "天庭"}
+        ]
+      }
+    ]
+  },
+  {
+    "recordId": "guanghan",
+    "name": "广寒宫",
+    "type": "location",
+    "poiId": "guanghan",
+    "children": [
+      {"recordId": "taiyin", "name": "太阴星君", "rank": "天仙·星君", "faction": "天庭", "title": "月宫之主（嫦娥）"},
+      {"recordId": "zhubajie_guanghan", "name": "猪八戒", "rank": "净坛使者", "faction": "人间", "title": "原天蓬元帅"},
+      {"recordId": "chijiao", "name": "赤脚大仙", "rank": "天仙", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "lingyan",
+    "name": "凌烟阁",
+    "type": "location",
+    "poiId": "lingyan",
+    "children": [
+      {"recordId": "taibai_lingyan", "name": "太白金星", "rank": "天仙·文臣", "faction": "天庭"},
+      {"recordId": "riyoushen", "name": "日游神", "rank": "天仙·巡逻", "faction": "天庭"},
+      {"recordId": "yeyoushen", "name": "夜游神", "rank": "天仙·巡逻", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "jilei",
+    "name": "积雷山",
+    "type": "location",
+    "poiId": "jilei",
+    "children": [
+      {"recordId": "wukong_jilei", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "zhubajie_jilei", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+      {"recordId": "nezha_jilei", "name": "哪吒", "rank": "天仙·武将", "faction": "天庭"},
+      {"recordId": "lijing_jilei", "name": "托塔天王李靖", "rank": "天仙·武将", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "wuji",
+    "name": "乌鸡国",
+    "type": "location",
+    "poiId": "wuji",
+    "children": [
+      {"recordId": "wukong_wuji", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_wuji", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_wuji", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_wuji", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "wenshu", "name": "文殊菩萨", "rank": "佛教·菩萨", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "baihu",
+    "name": "白虎岭",
+    "type": "location",
+    "poiId": "baihu",
+    "children": [
+      {"recordId": "wukong_baihu", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_baihu", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_baihu", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_baihu", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "guanyin_baihu", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"},
+      {"recordId": "tudishen_baihu", "name": "土地神", "rank": "地府·基层", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "gaolao",
+    "name": "高老庄",
+    "type": "location",
+    "poiId": "gaolao",
+    "children": [
+      {"recordId": "wukong_gaolao", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_gaolao", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_gaolao", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "guanyin_gaolao", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "heifeng",
+    "name": "黑风山",
+    "type": "location",
+    "poiId": "heifeng",
+    "children": [
+      {"recordId": "wukong_heifeng", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_heifeng", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间"}
+      ]},
+      {"recordId": "guanyin_heifeng", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "changan",
+    "name": "长安",
+    "type": "location",
+    "poiId": "changan",
+    "children": [
+      {"recordId": "taizong", "name": "唐太宗李世民", "rank": "人间·帝王", "faction": "人间", "children": [
+        {"recordId": "tangseng_changan", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "wukong_changan", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+          {"recordId": "zhubajie_changan", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_changan", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"},
+          {"recordId": "bailongma_changan", "name": "白龙马", "rank": "八部天龙", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "guanyin_changan", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"},
+      {"recordId": "jinghe", "name": "泾河龙王", "rank": "龙族", "faction": "龙宫"},
+      {"recordId": "yanluowang_changan", "name": "阎罗王", "rank": "地府·第五殿", "faction": "地府"},
+      {"recordId": "caiguan_changan", "name": "判官崔玏", "rank": "地府·文官", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "taoyuan",
+    "name": "蟠桃山",
+    "type": "location",
+    "poiId": "taoyuan",
+    "children": [
+      {"recordId": "wangmu_taoyuan", "name": "王母娘娘", "rank": "天仙·后妃", "faction": "天庭"},
+      {"recordId": "wukong_taoyuan", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "chijiao_taoyuan", "name": "赤脚大仙", "rank": "天仙", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "aolaic",
+    "name": "傲来村",
+    "type": "location",
+    "poiId": "aolaic",
+    "children": [
+      {"recordId": "wukong_aolaic", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "donghai_aolaic", "name": "东海龙王敖广", "rank": "龙族·海主", "faction": "龙宫"},
+      {"recordId": "tudishen_aolaic", "name": "土地神", "rank": "地府·基层", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "aolai",
+    "name": "傲来国",
+    "type": "location",
+    "poiId": "aolai",
+    "children": [
+      {"recordId": "wukong_aolai", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "donghai_aolai", "name": "东海龙王敖广", "rank": "龙族·海主", "faction": "龙宫"},
+      {"recordId": "chenghuang", "name": "城隍", "rank": "地府·基层", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "huaguo",
+    "name": "花果山",
+    "type": "location",
+    "poiId": "huaguo",
+    "children": [
+      {"recordId": "wukong_huaguo", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "taibai_huaguo", "name": "太白金星", "rank": "天仙·文臣", "faction": "天庭"},
+      {"recordId": "lijing_huaguo", "name": "托塔天王李靖", "rank": "天仙·武将", "faction": "天庭"},
+      {"recordId": "nezha_huaguo", "name": "哪吒", "rank": "天仙·武将", "faction": "天庭"},
+      {"recordId": "erlang_huaguo", "name": "二郎神杨戬", "rank": "天仙·战将", "faction": "天庭"},
+      {"recordId": "guanyin_huaguo", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"},
+      {"recordId": "donghai_huaguo", "name": "东海龙王敖广", "rank": "龙族·海主", "faction": "龙宫"}
+    ]
+  },
+  {
+    "recordId": "shuijing",
+    "name": "水晶宫",
+    "type": "location",
+    "poiId": "shuijing",
+    "children": [
+      {"recordId": "donghai", "name": "东海龙王敖广", "rank": "龙族·海主", "faction": "龙宫", "children": [
+        {"recordId": "xihai", "name": "西海龙王敖闰", "rank": "龙族·海主", "faction": "龙宫"},
+        {"recordId": "nanhai_long", "name": "南海龙王敖钦", "rank": "龙族·海主", "faction": "龙宫"},
+        {"recordId": "beihai", "name": "北海龙王敖顺", "rank": "龙族·海主", "faction": "龙宫"}
+      ]},
+      {"recordId": "wukong_shuijing", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "lingtai",
+    "name": "灵台方寸山",
+    "type": "location",
+    "poiId": "lingtai",
+    "children": [
+      {"recordId": "puti", "name": "菩提祖师", "rank": "散仙·神秘", "faction": "天庭", "children": [
+        {"recordId": "wukong_lingtai", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"}
+      ]}
+    ]
+  },
+  {
+    "recordId": "putuo",
+    "name": "普陀山",
+    "type": "location",
+    "poiId": "putuo",
+    "children": [
+      {"recordId": "guanyin", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山", "children": [
+        {"recordId": "wukong_putuo", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+        {"recordId": "tangseng_putuo", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间"},
+        {"recordId": "zhubajie_putuo", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+        {"recordId": "shaseng_putuo", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"},
+        {"recordId": "bailongma_putuo", "name": "白龙马", "rank": "八部天龙", "faction": "人间"}
+      ]}
+    ]
+  },
+  {
+    "recordId": "youming",
+    "name": "幽冥地府",
+    "type": "location",
+    "poiId": "youming",
+    "children": [
+      {"recordId": "dizang", "name": "地藏王菩萨", "rank": "佛教·菩萨", "faction": "灵山", "children": [
+        {"recordId": "shidian", "name": "十殿阎王", "faction": "地府", "children": [
+          {"recordId": "qinguang", "name": "秦广王", "rank": "地府·第一殿", "faction": "地府"},
+          {"recordId": "chujiang", "name": "楚江王", "rank": "地府·第二殿", "faction": "地府"},
+          {"recordId": "songdi", "name": "宋帝王", "rank": "地府·第三殿", "faction": "地府"},
+          {"recordId": "wuguan", "name": "五官王", "rank": "地府·第四殿", "faction": "地府"},
+          {"recordId": "yanluowang", "name": "阎罗王", "rank": "地府·第五殿", "faction": "地府"},
+          {"recordId": "biancheng", "name": "卞城王", "rank": "地府·第六殿", "faction": "地府"},
+          {"recordId": "taishanwang", "name": "泰山王", "rank": "地府·第七殿", "faction": "地府"},
+          {"recordId": "dushiwang", "name": "都市王", "rank": "地府·第八殿", "faction": "地府"},
+          {"recordId": "pingdeng", "name": "平等王", "rank": "地府·第九殿", "faction": "地府"},
+          {"recordId": "zhuanlun", "name": "转轮王", "rank": "地府·第十殿", "faction": "地府"}
+        ]},
+        {"recordId": "caiguan", "name": "判官崔玏", "rank": "地府·文官", "faction": "地府"},
+        {"recordId": "chaiya", "name": "差役", "faction": "地府", "children": [
+          {"recordId": "baiwuchang", "name": "白无常（谢必安）", "rank": "地府·差役", "faction": "地府"},
+          {"recordId": "heiwuchang", "name": "黑无常（范无救）", "rank": "地府·差役", "faction": "地府"},
+          {"recordId": "niutou", "name": "牛头", "rank": "地府·差役", "faction": "地府"},
+          {"recordId": "mamian", "name": "马面", "rank": "地府·差役", "faction": "地府"}
+        ]}
+      ]},
+      {"recordId": "wukong_youming", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "taizong_youming", "name": "唐太宗李世民", "rank": "人间·帝王", "faction": "人间"},
+      {"recordId": "jinghe_youming", "name": "泾河龙王", "rank": "龙族", "faction": "龙宫"}
+    ]
+  },
+  {
+    "recordId": "wuzhuang",
+    "name": "五庄观",
+    "type": "location",
+    "poiId": "wuzhuang",
+    "children": [
+      {"recordId": "zhenyuan", "name": "镇元大仙", "rank": "地仙·至尊", "faction": "天庭", "children": [
+        {"recordId": "wukong_wuzhuang", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+          {"recordId": "tangseng_wuzhuang", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+            {"recordId": "zhubajie_wuzhuang", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+            {"recordId": "shaseng_wuzhuang", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+          ]}
+        ]}
+      ]},
+      {"recordId": "guanyin_wuzhuang", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "wanshoushan",
+    "name": "万寿山",
+    "type": "location",
+    "poiId": "wanshoushan",
+    "children": [
+      {"recordId": "zhenyuan_wanshou", "name": "镇元大仙", "rank": "地仙·至尊", "faction": "天庭"},
+      {"recordId": "nanjishouxing", "name": "南极寿星", "rank": "天仙·散仙", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "chedi",
+    "name": "车迟国",
+    "type": "location",
+    "poiId": "chedi",
+    "children": [
+      {"recordId": "wukong_chedi", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_chedi", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_chedi", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_chedi", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "qixiang_chedi", "name": "气象系统", "faction": "天庭", "children": [
+        {"recordId": "donghai_chedi", "name": "东海龙王敖广", "rank": "龙族·海主", "faction": "龙宫"},
+        {"recordId": "leigong_chedi", "name": "雷公", "rank": "天仙·天象", "faction": "天庭"},
+        {"recordId": "dianmu_chedi", "name": "电母", "rank": "天仙·天象", "faction": "天庭"},
+        {"recordId": "fengbo_chedi", "name": "风伯", "rank": "天仙·天象", "faction": "天庭"},
+        {"recordId": "yushi_chedi", "name": "雨师", "rank": "天仙·天象", "faction": "天庭"}
+      ]}
+    ]
+  },
+  {
+    "recordId": "zimu",
+    "name": "子母河",
+    "type": "location",
+    "poiId": "zimu",
+    "children": [
+      {"recordId": "tangseng_zimu", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间"},
+      {"recordId": "zhubajie_zimu", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+      {"recordId": "wukong_zimu", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间"},
+      {"recordId": "guanyin_zimu", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"},
+      {"recordId": "ruyi", "name": "如意真仙", "rank": "散仙", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "huoyan",
+    "name": "火焰山",
+    "type": "location",
+    "poiId": "huoyan",
+    "children": [
+      {"recordId": "wukong_huoyan", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_huoyan", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_huoyan", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_huoyan", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "taishang_huoyan", "name": "太上老君", "rank": "天仙·至尊", "faction": "天庭"},
+      {"recordId": "guanyin_huoyan", "name": "观音菩萨", "rank": "佛教·菩萨", "faction": "灵山"},
+      {"recordId": "nezha_huoyan", "name": "哪吒", "rank": "天仙·武将", "faction": "天庭"},
+      {"recordId": "lijing_huoyan", "name": "托塔天王李靖", "rank": "天仙·武将", "faction": "天庭"},
+      {"recordId": "tudishen_huoyan", "name": "土地神", "rank": "地府·基层", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "pingdingshan",
+    "name": "平顶山",
+    "type": "location",
+    "poiId": "pingdingshan",
+    "children": [
+      {"recordId": "wukong_pingding", "name": "孙悟空", "rank": "斗战胜佛", "faction": "人间", "children": [
+        {"recordId": "tangseng_pingding", "name": "唐僧（玄奘）", "rank": "人间·圣僧", "faction": "人间", "children": [
+          {"recordId": "zhubajie_pingding", "name": "猪八戒", "rank": "净坛使者", "faction": "人间"},
+          {"recordId": "shaseng_pingding", "name": "沙僧（沙悟净）", "rank": "金身罗汉", "faction": "人间"}
+        ]}
+      ]},
+      {"recordId": "taishang_pingding", "name": "太上老君", "rank": "天仙·至尊", "faction": "天庭"},
+      {"recordId": "tudishen_pingding", "name": "土地神", "rank": "地府·基层", "faction": "地府"}
+    ]
+  },
+  {
+    "recordId": "nver",
+    "name": "西梁女国",
+    "type": "location",
+    "poiId": "nver",
+    "children": [
+      {"recordId": "nver_queen", "name": "西梁女王", "rank": "人间·帝王", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "zhuzi",
+    "name": "朱紫国",
+    "type": "location",
+    "poiId": "zhuzi",
+    "children": [
+      {"recordId": "zhuzi_king", "name": "朱紫国王", "rank": "人间·帝王", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "shitou",
+    "name": "狮驼岭",
+    "type": "location",
+    "poiId": "shitou",
+    "children": [
+      {"recordId": "qingzhi", "name": "青狮大王", "rank": "妖怪·顶级", "faction": "妖界"},
+      {"recordId": "baixiang", "name": "白象大王", "rank": "妖怪·顶级", "faction": "妖界"},
+      {"recordId": "dapeng", "name": "大鹏金翅雕", "rank": "佛教·护法", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "yuhua",
+    "name": "玉华州",
+    "type": "location",
+    "poiId": "yuhua",
+    "children": [
+      {"recordId": "yuhua_prince1", "name": "大王子", "rank": "人间·王子", "faction": "人间"},
+      {"recordId": "yuhua_prince2", "name": "二王子", "rank": "人间·王子", "faction": "人间"},
+      {"recordId": "yuhua_prince3", "name": "三王子", "rank": "人间·王子", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "jinping",
+    "name": "金平府",
+    "type": "location",
+    "poiId": "jinping",
+    "children": [
+      {"recordId": "jinping_monk", "name": "慈云寺僧人", "rank": "人间·僧人", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "tianzhu",
+    "name": "天竺国",
+    "type": "location",
+    "poiId": "tianzhu",
+    "children": [
+      {"recordId": "tianzhu_king", "name": "天竺国王", "rank": "人间·帝王", "faction": "人间"},
+      {"recordId": "tianzhu_princess", "name": "天竺公主（玉兔）", "rank": "人间·公主", "faction": "妖界"},
+      {"recordId": "taiyin_tianzhu", "name": "太阴星君", "rank": "天仙·星君", "faction": "天庭"}
+    ]
+  },
+  {
+    "recordId": "baoxiangguo",
+    "name": "宝象国",
+    "type": "location",
+    "poiId": "baoxiangguo",
+    "children": [
+      {"recordId": "baoxiang_king", "name": "宝象国王", "rank": "人间·帝王", "faction": "人间"},
+      {"recordId": "huangpao", "name": "黄袍怪（奎木狼）", "rank": "天仙·星官", "faction": "天庭"},
+      {"recordId": "baihuaxiu", "name": "百花羞公主", "rank": "人间·公主", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "wudidong",
+    "name": "无底洞",
+    "type": "location",
+    "poiId": "wudidong",
+    "children": [
+      {"recordId": "laoshujing", "name": "金鼻白毛老鼠精", "rank": "妖怪·顶级", "faction": "妖界"}
+    ]
+  },
+  {
+    "recordId": "fulongsi",
+    "name": "伏龙寺",
+    "type": "location",
+    "poiId": "fulongsi",
+    "children": [
+      {"recordId": "fulong_monk", "name": "伏龙寺僧人", "rank": "人间·僧人", "faction": "人间"}
+    ]
+  },
+  {
+    "recordId": "xiaoleiyinsi",
+    "name": "小雷音寺",
+    "type": "location",
+    "poiId": "xiaoleiyinsi",
+    "children": [
+      {"recordId": "huangmei", "name": "黄眉老佛", "rank": "佛教·护法", "faction": "灵山"},
+      {"recordId": "miles_fo", "name": "弥勒佛", "rank": "佛教·未来佛", "faction": "灵山"}
+    ]
+  },
+  {
+    "recordId": "lingshan",
+    "name": "灵山",
+    "type": "location",
+    "poiId": "lingshan",
+    "children": []
+  },
+  {
+    "recordId": "daleiyinsi",
+    "name": "大雷音寺",
+    "type": "location",
+    "poiId": "daleiyinsi",
+    "children": [
+      {"recordId": "rulai", "name": "如来佛祖", "rank": "佛教·至尊", "faction": "灵山"}
+    ]
+  }
+]

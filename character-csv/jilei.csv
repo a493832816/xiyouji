@@ -1,0 +1,6 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+jilei,积雷山,,地点,妖界,牛魔王旧居,牛魔王与铁扇公主旧居一带
+wukong_jilei,孙悟空,jilei,斗战胜佛,人间,齐天大圣,全书第一主角
+zhubajie_jilei,猪八戒,jilei,净坛使者,人间,原天蓬元帅,好色贪吃但关键时刻仍能发挥作用
+nezha_jilei,哪吒,jilei,天仙·武将,天庭,中坛元帅,降服牛魔王
+lijing_jilei,托塔天王李靖,jilei,天仙·武将,天庭,降魔大元帅,率兵征讨牛魔王

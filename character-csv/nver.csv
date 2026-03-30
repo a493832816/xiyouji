@@ -1,0 +1,3 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+nver,西梁女国,,地点,人间,举国皆女,女王欲招唐僧为夫
+nver_queen,西梁女王,nver,人间·帝王,人间,女儿国国王,欲招唐僧为夫

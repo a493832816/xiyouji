@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="西游地图视觉还原与交互示例" />
+  <title>西游地图交互还原</title>
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/map.css" />
+  <link rel="stylesheet" href="./styles/poi.css" />
+  <link rel="stylesheet" href="./styles/character-panel.css" />
+</head>
+<body>
+  <main class="layout" aria-label="西游地图页面">
+    <section class="map-panel">
+      <header class="map-header">
+        <h1>西游取经全域图</h1>
+        <p>支持缩放、拖拽、热点提示与跳转</p>
+      </header>
+      <div class="map-toolbar" aria-label="地图控件">
+        <button id="zoom-in" type="button">放大</button>
+        <button id="zoom-out" type="button">缩小</button>
+        <button id="zoom-reset" type="button">复位</button>
+        <button id="calibrate-toggle" type="button">开启校准</button>
+        <button id="calibrate-copy" type="button">复制坐标</button>
+      </div>
+      <output id="calibrate-status" class="calibrate-status">校准模式关闭</output>
+      <section class="map-viewport" id="map-viewport" aria-label="西游世界地图">
+        <div class="map-stage" id="map-stage">
+          <img id="map-base-image" class="map-base-image" alt="西游地图底图" />
+          <svg id="terrain-layer" aria-label="地形层"></svg>
+          <svg id="route-layer" aria-label="西天取经线路层"></svg>
+          <div id="label-layer" aria-label="地图文案层"></div>
+          <div id="faction-layer" aria-label="势力范围标注层"></div>
+          <div id="poi-layer" aria-label="地图地点标注层"></div>
+        </div>
+        <div id="poi-tooltip" class="poi-tooltip" hidden></div>
+      </section>
+    </section>
+    <aside class="side-panel">
+      <section class="legend-panel">
+        <h2>图例</h2>
+        <ul id="legend-list"></ul>
+      </section>
+      <section class="detail-panel">
+        <h2>地点信息</h2>
+        <div id="poi-details"></div>
+      </section>
+    </aside>
+  </main>
+  <noscript>请开启 JavaScript 以加载完整地图交互功能。</noscript>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+huoyan,火焰山,,地点,妖界,八百里烈火,乃老君炉砖所化
+wukong_huoyan,孙悟空,huoyan,斗战胜佛,人间,齐天大圣,三借芭蕉扇
+tangseng_huoyan,唐僧（玄奘）,wukong_huoyan,人间·圣僧,人间,大唐圣僧,
+zhubajie_huoyan,猪八戒,wukong_huoyan,净坛使者,人间,原天蓬元帅,
+shaseng_huoyan,沙僧（沙悟净）,wukong_huoyan,金身罗汉,人间,原卷帘大将,
+taishang_huoyan,太上老君,huoyan,天仙·至尊,天庭,道德天尊,炉砖所化
+guanyin_huoyan,观音菩萨,huoyan,佛教·菩萨,灵山,南海观世音,
+nezha_huoyan,哪吒,huoyan,天仙·武将,天庭,中坛元帅,降服牛魔王
+lijing_huoyan,托塔天王李靖,huoyan,天仙·武将,天庭,降魔大元帅,降服牛魔王
+tudishen_huoyan,土地神,huoyan,地府·基层,地府,土地公公,情报来源

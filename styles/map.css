@@ -1,0 +1,352 @@
+.layout {
+  width: min(1400px, 98vw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 1rem;
+}
+
+.map-panel {
+  background: rgba(20, 14, 10, 0.62);
+  border: 1px solid rgba(205, 172, 120, 0.35);
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.45);
+}
+
+.map-header h1 {
+  margin: 0;
+  color: #f1dfb3;
+  font-size: clamp(20px, 2vw, 30px);
+}
+
+.map-header p {
+  margin: 0.3rem 0 0.8rem;
+  color: #d3c095;
+  font-size: 14px;
+}
+
+.map-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.map-toolbar button {
+  border: 1px solid #8e6c3c;
+  background: linear-gradient(180deg, #e5d2a8, #ccb488);
+  color: #4a3217;
+  border-radius: 6px;
+  padding: 0.38rem 0.9rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.map-toolbar button.active {
+  background: linear-gradient(180deg, #f1d694, #ddb569);
+  border-color: #ac7731;
+}
+
+.calibrate-status {
+  display: block;
+  margin: -0.2rem 0 0.7rem;
+  color: #d8c39a;
+  font-size: 13px;
+}
+
+.map-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1023 / 579;
+  border-radius: 10px;
+  overflow: hidden;
+  touch-action: none;
+  background: #b99d6e;
+  box-shadow: 0 0 0 8px #554328;
+}
+
+.map-viewport.calibrating {
+  cursor: crosshair;
+}
+
+.map-viewport::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 233, 187, 0.25);
+  pointer-events: none;
+  z-index: 30;
+}
+
+.map-stage {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.map-base-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  filter: saturate(0.95) contrast(1.04);
+}
+
+#terrain-layer,
+#label-layer,
+#faction-layer {
+  position: absolute;
+  inset: 0;
+}
+
+#terrain-layer {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  opacity: 0.82;
+}
+
+#route-layer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  /* 允许在开发者工具中点选 path；需避免被上层全屏 div 挡住 */
+  pointer-events: auto;
+}
+
+#label-layer {
+  z-index: 5;
+  /* 仅文案子节点可见，容器不拦截下层 SVG 的拾取 */
+  pointer-events: none;
+}
+
+#faction-layer {
+  z-index: 6;
+  /* 势力块仅作装饰，不挡住取经路线层 */
+  pointer-events: none;
+}
+
+.faction-zone,
+.faction-label {
+  /* 父级为 none 时子级默认 auto 仍会拦截命中，需显式关闭 */
+  pointer-events: none;
+}
+
+/* 与浏览器预览一致：不显式使用 left/top:0；仍铺满 map-stage */
+#poi-layer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  /* 全屏容器不拦截点击，仅热点按钮可点（否则路线 path 无法被选中/拾取） */
+  pointer-events: none;
+}
+
+#poi-layer .poi {
+  pointer-events: auto;
+}
+
+.terrain-mountain {
+  fill: none;
+  stroke: rgba(40, 62, 47, 0.68);
+  stroke-linecap: round;
+  stroke-width: 0.8;
+  stroke-dasharray: 1.4 1.2;
+}
+
+.terrain-water {
+  fill: none;
+  stroke: rgba(88, 171, 195, 0.6);
+  stroke-linecap: round;
+  stroke-width: 0.9;
+  stroke-dasharray: 1.2 1.1;
+}
+
+.route-main {
+  fill: none;
+  stroke: #b33826;
+  stroke-width: 0.58;
+  stroke-dasharray: 1.1 0.8;
+  opacity: 0.92;
+}
+
+.route-main-glow {
+  fill: none;
+  stroke: rgba(255, 220, 135, 0.45);
+  stroke-width: 1.2;
+}
+
+.route-marker {
+  fill: #d6552b;
+  stroke: rgba(255, 245, 220, 0.92);
+  stroke-width: 0.18;
+}
+
+.region-label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: rgba(53, 76, 45, 0.84);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  pointer-events: none;
+  font-size: clamp(11px, 1vw, 18px);
+}
+
+.region-west,
+.region-east {
+  color: rgba(64, 44, 20, 0.8);
+}
+
+.water-text {
+  position: absolute;
+  color: rgba(173, 219, 240, 0.58);
+  font-size: clamp(10px, 0.9vw, 13px);
+  letter-spacing: 0.25em;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.faction-zone {
+  position: absolute;
+  border: 2px dashed #6b4a1f;
+  border-radius: 45%;
+  background: rgba(188, 141, 66, 0.1);
+  box-shadow: inset 0 0 30px rgba(97, 64, 20, 0.12);
+}
+
+.faction-label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.16rem 0.48rem;
+  border: 1px solid rgba(42, 31, 21, 0.65);
+  background: rgba(250, 241, 218, 0.9);
+  font-size: clamp(10px, 0.8vw, 14px);
+  font-weight: 700;
+  color: #4a3318;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.faction-zone.heaven { background: rgba(227, 193, 88, 0.17); }
+.faction-zone.tang { background: rgba(173, 67, 40, 0.13); }
+.faction-zone.demon { background: rgba(74, 65, 95, 0.13); }
+.faction-zone.buddha { background: rgba(192, 152, 52, 0.13); }
+.faction-zone.dragon { background: rgba(48, 97, 133, 0.15); }
+
+.poi-tooltip {
+  position: absolute;
+  z-index: 20;
+  pointer-events: none;
+  background: rgba(19, 13, 10, 0.94);
+  border: 1px solid rgba(205, 170, 109, 0.86);
+  color: #f0dbad;
+  padding: 0.35rem 0.55rem;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.side-panel {
+  background: rgba(20, 14, 10, 0.62);
+  border: 1px solid rgba(205, 172, 120, 0.35);
+  border-radius: 12px;
+  padding: 0.8rem;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 0.8rem;
+  max-height: calc(100vh - 2rem);
+}
+
+.side-panel h2 {
+  margin: 0 0 0.6rem;
+  color: #f1dfb3;
+  font-size: 18px;
+}
+
+#legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.36rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e8d6ac;
+  font-size: 14px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--legend-color);
+}
+
+.detail-panel {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#poi-details {
+  overflow: auto;
+  display: grid;
+  gap: 0.55rem;
+  padding-right: 0.3rem;
+}
+
+.poi-detail {
+  border: 1px solid rgba(221, 191, 138, 0.3);
+  border-radius: 7px;
+  padding: 0.62rem;
+  background: rgba(48, 35, 24, 0.5);
+  color: #f0dfb8;
+  cursor: pointer;
+}
+
+.poi-detail h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.poi-detail p {
+  margin: 0.26rem 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.poi-detail-meta {
+  color: #cbb184;
+}
+
+.poi-detail.active {
+  border-color: rgba(255, 202, 124, 0.9);
+  box-shadow: 0 0 0 1px rgba(255, 202, 124, 0.4) inset;
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .side-panel {
+    max-height: none;
+  }
+  #poi-details {
+    max-height: 240px;
+  }
+}

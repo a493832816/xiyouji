@@ -1,0 +1,242 @@
+/* 人物架构图样式 - 古风主题 */
+
+.character-panel {
+  position: relative;
+  background: linear-gradient(180deg, rgba(38, 28, 18, 0.95), rgba(25, 18, 12, 0.98));
+  border: 1px solid rgba(205, 172, 120, 0.35);
+  border-radius: 8px;
+  padding: 0.8rem;
+  color: #f0dfb8;
+  animation: panelFadeIn 0.25s ease;
+}
+
+@keyframes panelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.character-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(180, 150, 100, 0.3);
+}
+
+.character-panel-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f5e6c0;
+  letter-spacing: 0.05em;
+}
+
+.character-panel-close {
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(180, 140, 80, 0.5);
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(200, 170, 120, 0.15), rgba(150, 120, 70, 0.1));
+  color: #d4c4a0;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-panel-close:hover {
+  background: linear-gradient(180deg, rgba(200, 170, 120, 0.25), rgba(150, 120, 70, 0.2));
+  border-color: rgba(200, 160, 90, 0.7);
+  color: #f0e0b0;
+}
+
+.character-group {
+  margin-bottom: 0.5rem;
+}
+
+.character-group:last-child {
+  margin-bottom: 0;
+}
+
+.character-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.5rem;
+  background: linear-gradient(90deg, rgba(180, 150, 100, 0.18), transparent);
+  border-left: 3px solid rgba(205, 172, 120, 0.6);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s ease;
+}
+
+.character-group-header:hover {
+  background: linear-gradient(90deg, rgba(180, 150, 100, 0.28), transparent);
+}
+
+.character-group-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4c4a0;
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+.character-group.collapsed .character-group-icon {
+  transform: rotate(-90deg);
+}
+
+.character-group-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e8d8b0;
+}
+
+.character-group-count {
+  font-size: 11px;
+  color: #c0a878;
+  margin-left: auto;
+}
+
+.character-group-content {
+  display: grid;
+  gap: 0.4rem;
+  padding: 0.4rem 0 0.2rem 0.5rem;
+  max-height: 800px;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.2s ease;
+}
+
+.character-group.collapsed .character-group-content {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0;
+}
+
+.character-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: linear-gradient(135deg, rgba(60, 45, 30, 0.5), rgba(40, 30, 20, 0.4));
+  border: 1px solid rgba(180, 150, 100, 0.2);
+  border-radius: 6px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.character-card:hover {
+  border-color: rgba(200, 170, 120, 0.4);
+  background: linear-gradient(135deg, rgba(70, 55, 38, 0.55), rgba(50, 38, 28, 0.45));
+}
+
+.character-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(180, 150, 100, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f5e6c0;
+  flex-shrink: 0;
+}
+
+.character-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 势力颜色背景 */
+.character-avatar.faction-heaven {
+  background: linear-gradient(135deg, #8b7355, #6b5544);
+}
+
+.character-avatar.faction-ling-shan {
+  background: linear-gradient(135deg, #c9a227, #9a7a1a);
+}
+
+.character-avatar.faction-difu {
+  background: linear-gradient(135deg, #4a5568, #2d3748);
+}
+
+.character-avatar.faction-longgong {
+  background: linear-gradient(135deg, #3182ce, #2c5282);
+}
+
+.character-avatar.faction-renjian {
+  background: linear-gradient(135deg, #744210, #5c3310);
+}
+
+.character-avatar.faction-default {
+  background: linear-gradient(135deg, #6b6b6b, #4a4a4a);
+}
+
+.character-info {
+  min-width: 0;
+}
+
+.character-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f5e6c0;
+}
+
+.character-title {
+  margin: 0.15rem 0;
+  font-size: 11px;
+  color: #c0a878;
+}
+
+.character-desc {
+  margin: 0.2rem 0;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #b0a080;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.character-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.character-tag {
+  padding: 0.12rem 0.4rem;
+  background: rgba(180, 150, 100, 0.15);
+  border: 1px solid rgba(180, 150, 100, 0.3);
+  border-radius: 10px;
+  font-size: 10px;
+  color: #d4c4a0;
+}
+
+.character-empty {
+  padding: 1rem;
+  text-align: center;
+  color: #a09078;
+  font-size: 13px;
+}

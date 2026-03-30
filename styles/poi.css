@@ -1,0 +1,60 @@
+.poi {
+  position: absolute;
+  appearance: none;
+  transform: translate(-50%, -50%);
+  padding: 0.24rem 0.68rem;
+  line-height: 1.3;
+  font-size: clamp(13px, 1.08vw, 18px);
+  font-weight: 700;
+  background: var(--label-bg);
+  border: 2px solid var(--label-border);
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  color: inherit;
+}
+
+.poi.city {
+  border-color: var(--city);
+  color: var(--city);
+}
+
+.poi.temple {
+  border-color: var(--temple);
+  color: #274f38;
+}
+
+.poi.mountain {
+  border-color: var(--mountain);
+  color: #304035;
+}
+
+.poi.water {
+  border-color: #285b74;
+  color: #1f5168;
+}
+
+.poi.large {
+  font-size: clamp(16px, 1.32vw, 22px);
+  padding: 0.28rem 0.8rem;
+}
+
+.poi:hover {
+  transform: translate(-50%, -50%) scale(1.06);
+  box-shadow: 0 0 0 2px rgba(254, 245, 218, 0.74), 2px 4px 8px rgba(0, 0, 0, 0.34);
+}
+
+.poi.active {
+  box-shadow: 0 0 0 2px rgba(255, 234, 170, 0.88), 2px 4px 8px rgba(0, 0, 0, 0.34);
+}
+
+.map-viewport.calibrating .poi {
+  cursor: grab;
+}
+
+.map-viewport.calibrating .poi.dragging {
+  cursor: grabbing;
+  transform: translate(-50%, -50%) scale(1.08);
+}

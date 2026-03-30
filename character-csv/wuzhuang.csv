@@ -1,0 +1,8 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+wuzhuang,五庄观,,地点,天庭,镇元大仙道场,观内植人参果树
+zhenyuan,镇元大仙,wuzhuang,地仙·至尊,天庭,地仙之祖·万寿山五庄观,一招袖里乾坤轻松擒住悟空
+wukong_wuzhuang,孙悟空,zhenyuan,斗战胜佛,人间,齐天大圣,推倒人参果树
+tangseng_wuzhuang,唐僧（玄奘）,wukong_wuzhuang,人间·圣僧,人间,大唐圣僧,
+zhubajie_wuzhuang,猪八戒,tangseng_wuzhuang,净坛使者,人间,原天蓬元帅,吃人参果
+shaseng_wuzhuang,沙僧（沙悟净）,tangseng_wuzhuang,金身罗汉,人间,原卷帘大将,
+guanyin_wuzhuang,观音菩萨,wuzhuang,佛教·菩萨,灵山,南海观世音,医树

@@ -1,0 +1,6 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+gaolao,高老庄,,地点,人间,猪八戒入赘地,猪八戒曾在此入赘为婿
+wukong_gaolao,孙悟空,gaolao,斗战胜佛,人间,齐天大圣,降妖收八戒
+tangseng_gaolao,唐僧（玄奘）,wukong_gaolao,人间·圣僧,人间,大唐圣僧,收八戒入队
+zhubajie_gaolao,猪八戒,tangseng_gaolao,净坛使者,人间,原天蓬元帅,在此入赘为婿
+guanyin_gaolao,观音菩萨,gaolao,佛教·菩萨,灵山,南海观世音,点化八戒

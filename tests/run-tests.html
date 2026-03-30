@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>西游地图测试</title>
+  <style>
+    body { margin: 0; font-family: "Microsoft YaHei", sans-serif; background: #16110d; color: #f0ddb3; padding: 20px; }
+    h1 { margin: 0 0 12px; font-size: 22px; }
+    #summary { margin-bottom: 10px; }
+    ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+    .pass { color: #a1edaa; }
+    .fail { color: #ff9c9c; }
+  </style>
+</head>
+<body>
+  <h1>西游地图自动化测试</h1>
+  <div id="summary">执行中...</div>
+  <ul id="result-list"></ul>
+  <script type="module">
+    import { run } from "./test-runner.js";
+    import "./unit.test.js";
+    import "./integration.test.js";
+
+    const summary = document.getElementById("summary");
+    const resultList = document.getElementById("result-list");
+    const report = await run(resultList);
+    summary.textContent = `总计 ${report.total}，通过 ${report.pass}，失败 ${report.fail}`;
+  </script>
+</body>
+</html>

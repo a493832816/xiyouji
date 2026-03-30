@@ -1,0 +1,1099 @@
+[
+  {
+    "name": "唐太宗李世民",
+    "faction": "人间",
+    "rank": "人间·帝王",
+    "title": "大唐天子",
+    "desc": "因泾河龙王之事游地府，还阳后举办水陆大会引出玄奘西行。",
+    "appearance": "",
+    "tags": [
+      "大唐天子",
+      "游地府",
+      "水陆大会"
+    ],
+    "aiPrompt": "一位西游记中的角色，唐太宗李世民，因泾河龙王之事游地府，还阳后举办水陆大会引出玄奘西行。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/8b0aebcf-565b-4567-82ab-c165650f015f_e1fee043c9ca4eda709e5f8abcb54098_ComfyUI_ccd7f025_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "唐僧（玄奘）",
+    "faction": "人间",
+    "rank": "人间·圣僧",
+    "title": "金蝉子转世·大唐圣僧",
+    "desc": "如来二弟子金蝉子转世，十世修行的好人，意志坚定历经八十一难终成正果。",
+    "appearance": "",
+    "tags": [
+      "取经人",
+      "金蝉子",
+      "旃檀功德佛"
+    ],
+    "aiPrompt": "一位年轻俊朗的佛教僧人，身穿金色袈裟，头戴毗卢帽，面容慈悲庄严，手持锡杖和紫金钵盂，站在古寺门前，身后是西行之路，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "孙悟空",
+    "faction": "人间",
+    "rank": "斗战胜佛",
+    "title": "齐天大圣·斗战胜佛",
+    "desc": "花果山石猴所化，七十二变、筋斗云、火眼金睛，全书第一主角。",
+    "appearance": "",
+    "tags": [
+      "齐天大圣",
+      "斗战胜佛",
+      "全书主角"
+    ],
+    "aiPrompt": "一位庄严的佛陀，孙悟空，身披金色袈裟，面容慈悲，盘坐在莲花台上，身后有万丈佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/49696e48-7830-435c-817c-28060aaeb5d7_c6d1c80a5fa72119387e8a45d12711f1_ComfyUI_612f7fac_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "猪八戒",
+    "faction": "人间",
+    "rank": "净坛使者",
+    "title": "天蓬元帅→净坛使者",
+    "desc": "原天蓬元帅，因醉酒调戏嫦娥被贬错投猪胎，好色贪吃但关键时刻仍能发挥作用。",
+    "appearance": "",
+    "tags": [
+      "天蓬元帅",
+      "九齿钉耙",
+      "净坛使者"
+    ],
+    "aiPrompt": "一位西游记中的角色，猪八戒，原天蓬元帅，因醉酒调戏嫦娥被贬错投猪胎，好色贪吃但关键时刻仍能发挥作用。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/73fc574c-73ed-4c71-b812-b7562a787d07_5033b96dfdc9830901c503d6aec4a6c4_ComfyUI_29d12c22_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "沙僧（沙悟净）",
+    "faction": "人间",
+    "rank": "金身罗汉",
+    "title": "卷帘大将→金身罗汉",
+    "desc": "原天庭卷帘大将，因打碎琉璃盏被贬流沙河，性格老实忠厚任劳任怨。",
+    "appearance": "",
+    "tags": [
+      "卷帘大将",
+      "流沙河",
+      "金身罗汉"
+    ],
+    "aiPrompt": "一位身材高大魁梧的僧人，面色深蓝，脖挂骷髅项链，手持降妖宝杖，身穿深色僧袍，站在流沙河边，表情忠厚老实，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "白龙马",
+    "faction": "人间",
+    "rank": "八部天龙",
+    "title": "西海龙王三太子→八部天龙",
+    "desc": "西海龙王三太子，因纵火烧毁殿上明珠，经观音点化化为白马载唐僧西行。",
+    "appearance": "",
+    "tags": [
+      "西海三太子",
+      "白龙马",
+      "八部天龙"
+    ],
+    "aiPrompt": "一位西游记中的角色，白龙马，西海龙王三太子，因纵火烧毁殿上明珠，经观音点化化为白马载唐僧西行。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/2f1b3717-035d-42a1-b18d-b3eed8723ce6_3e656872d4536042adffa5a6b588e739_ComfyUI_eaed753b_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "如来佛祖",
+    "faction": "灵山",
+    "rank": "佛教·至尊",
+    "title": "释迦牟尼佛·西天大雷音寺",
+    "desc": "西游记绝对实力的天花板，一掌压住悟空，取经八十一难的总设计师。",
+    "appearance": "",
+    "tags": [
+      "绝对实力",
+      "五行山",
+      "取经总设计师"
+    ],
+    "aiPrompt": "一位庄严的佛陀，如来佛祖，身披金色袈裟，面容慈悲，盘坐在莲花台上，身后有万丈佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/fb6cc293-4c6c-408a-90e0-a77ac7f15f68_459d50523130c15977b426162aae411c_ComfyUI_f4973948_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "观音菩萨",
+    "faction": "灵山",
+    "rank": "佛教·菩萨",
+    "title": "南海观世音·大慈大悲",
+    "desc": "出场最多的佛界角色，取经项目的项目经理，佛道两界最重要的桥梁人物。",
+    "appearance": "",
+    "tags": [
+      "取经项目经理",
+      "玉净瓶",
+      "紧箍咒"
+    ],
+    "aiPrompt": "一位庄严的菩萨，观音菩萨，身穿华丽法衣，头戴宝冠，手持法器，盘坐在莲花台上，身后有佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/caa042aa-c321-4393-ab0f-59a1a2fd9047_3e78e9abc1675f28e2ddf2f3a1ce7d03_ComfyUI_3d67948d_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "文殊菩萨",
+    "faction": "灵山",
+    "rank": "佛教·菩萨",
+    "title": "大智文殊",
+    "desc": "坐骑青毛狮子两次下凡作怪，乌鸡国和狮驼岭。",
+    "appearance": "",
+    "tags": [
+      "青毛狮子",
+      "乌鸡国",
+      "狮驼岭"
+    ],
+    "aiPrompt": "一位庄严的菩萨，文殊菩萨，身穿华丽法衣，头戴宝冠，手持法器，盘坐在莲花台上，身后有佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/39009fcc-14b2-4898-9b93-8fc88a65eda0_8c40f9b7edffaf2148810a0ad5339cfc_ComfyUI_02693114_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "地藏王菩萨",
+    "faction": "灵山",
+    "rank": "佛教·菩萨",
+    "title": "幽冥教主·大愿地藏",
+    "desc": "地狱不空誓不成佛，驻守幽冥地府，掌管六道轮回。",
+    "appearance": "",
+    "tags": [
+      "地狱不空誓不成佛",
+      "六道轮回"
+    ],
+    "aiPrompt": "一位庄严的菩萨，地藏王菩萨，身穿华丽法衣，头戴宝冠，手持法器，盘坐在莲花台上，身后有佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/f7c2c434-6b44-4d02-bdb6-742619c4793e_e7b17ba0d4db2dd4cdd981afe11abf9f_ComfyUI_1483427f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "弥勒佛",
+    "faction": "灵山",
+    "rank": "佛教·未来佛",
+    "title": "东来佛祖·未来佛",
+    "desc": "大耳方面、笑容常在的未来佛，其殿下黄眉童儿偷走后天袋下凡作乱。",
+    "appearance": "",
+    "tags": [
+      "未来佛",
+      "黄眉大王"
+    ],
+    "aiPrompt": "一位庄严的佛陀，弥勒佛，身披金色袈裟，面容慈悲，盘坐在莲花台上，身后有万丈佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/ce04ef17-a3f3-4076-89c1-cc7174d69d6c_df8d38f0c6783726d844844e3faee415_ComfyUI_bdfcaa98_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "大鹏金翅雕",
+    "faction": "灵山",
+    "rank": "佛教·护法",
+    "title": "云程万里鹏·如来舅舅",
+    "desc": "狮驼岭三大王，扇一翅膀九万里，取经路上最强妖怪，五百罗汉方才围困。",
+    "appearance": "",
+    "tags": [
+      "最强妖怪",
+      "如来舅舅",
+      "狮驼岭"
+    ],
+    "aiPrompt": "一只巨大的金翅大鹏鸟，展翅遮天蔽日，羽毛金光闪闪，目光锐利凶狠，爪如钢铁，翱翔在云层之上，背景是巍峨的狮驼岭，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "毗蓝婆菩萨",
+    "faction": "灵山",
+    "rank": "佛教·菩萨",
+    "title": "昴日星官之母",
+    "desc": "隐居的神秘菩萨，仅凭一根绣花针就收服了百眼魔君（蜈蚣精）。",
+    "appearance": "",
+    "tags": [
+      "绣花针",
+      "百眼魔君",
+      "蜈蚣精"
+    ],
+    "aiPrompt": "一位慈祥的中年女菩萨，身穿素色僧袍，手持一根细小的绣花针，面容温和但目光坚定，站在简朴的修行之地，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "昴日星官",
+    "faction": "灵山",
+    "rank": "天庭·星官",
+    "title": "光明宫神仙·大公鸡本相",
+    "desc": "现出六七尺高大公鸡本相后，两声鸡叫便降服了蝎子精。",
+    "appearance": "",
+    "tags": [
+      "大公鸡",
+      "降服蝎子精"
+    ],
+    "aiPrompt": "一位神仙，身穿华丽的星官服饰，身后隐约显现一只巨大的金色公鸡幻影，手持法器，站立在光明宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "乌巢禅师",
+    "faction": "灵山",
+    "rank": "佛教·高僧",
+    "title": "浮屠山修行者",
+    "desc": "住在浮屠山大树鸟巢中的神秘禅师，传授唐僧《多心经》。",
+    "appearance": "",
+    "tags": [
+      "多心经",
+      "浮屠山",
+      "神秘禅师"
+    ],
+    "aiPrompt": "一位神秘的禅师，盘坐在大树上的鸟巢中，身披简朴僧袍，面容祥和，周围云雾缭绕，仿佛与自然融为一体，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "",
+    "recordId": ""
+  },
+  {
+    "name": "阎罗王",
+    "faction": "地府",
+    "rank": "地府·第五殿",
+    "title": "第五殿·掌管叫唤大地狱",
+    "desc": "十殿阎王中最著名的一位，几乎成为地府的代名词。",
+    "appearance": "",
+    "tags": [
+      "阎王",
+      "叫唤地狱"
+    ],
+    "aiPrompt": "一位威严的冥王，身穿黑色龙袍，头戴冕旒，面容严肃，端坐在高大的审判台上，身后是地狱景象，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/30490c08-8176-428c-bf39-07fb1e1cc55a_acb3e5816423956e2d79266a7e9012dd_ComfyUI_a2734138_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "判官崔玨",
+    "faction": "地府",
+    "rank": "地府·文官",
+    "title": "地府判官",
+    "desc": "原型为唐朝诗人崔珏，修改唐太宗寿命增二十年，地府中少有的有人情味的角色。",
+    "appearance": "",
+    "tags": [
+      "崔珏",
+      "修改寿命",
+      "有人情味"
+    ],
+    "aiPrompt": "一位文官打扮的判官，手持生死簿和判官笔，面容严肃但带有人情味，站在案前，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/c28aa2bb-17be-4bbe-997f-e8f499f9b560_e4fd3b24b160881b6f9fa695abf1f6b5_ComfyUI_59a82d98_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "土地神",
+    "faction": "地府",
+    "rank": "地府·基层",
+    "title": "各地土地公公",
+    "desc": "出场率极高的基层神仙，悟空最常用的情报来源。",
+    "appearance": "",
+    "tags": [
+      "基层神仙",
+      "情报来源",
+      "万能NPC"
+    ],
+    "aiPrompt": "一位西游记中的角色，土地神，出场率极高的基层神仙，悟空最常用的情报来源。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/58b00154-fb63-471a-943f-bb60d2dd3c1f_d92918c42cc7e4a667d09565905b7853_ComfyUI_b799c876_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "城隍",
+    "faction": "地府",
+    "rank": "地府·基层",
+    "title": "各地城隍老爷",
+    "desc": "城市守护神，掌管一方城池的阴阳事务，地位略高于土地神。",
+    "appearance": "",
+    "tags": [
+      "城市守护神"
+    ],
+    "aiPrompt": "一位西游记中的角色，城隍，城市守护神，掌管一方城池的阴阳事务，地位略高于土地神。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1031ac25-a4eb-49e7-b872-d1bf1121e5ab_20ac718f35c3f7c431a42fd19ba38754_ComfyUI_b7ef9d7e_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "元始天尊",
+    "faction": "天庭",
+    "rank": "天仙·至尊",
+    "title": "玉清元始天尊",
+    "desc": "道教第一神，开天辟地之祖。在安天大会中率众仙赴宴，代表着超越玉帝行政权力的至高神权。",
+    "appearance": "",
+    "tags": [
+      "三清",
+      "道教最高神"
+    ],
+    "aiPrompt": "一位威严的道教至尊，元始天尊，身穿华丽道袍，手持法宝，站在云端，仙气缭绕，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/7aa16ce2-1e8c-4896-bac0-03b576a801df_81412d7dafb3c9baa097f3bd91a83d98_ComfyUI_c76a7eb8_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "灵宝天尊",
+    "faction": "天庭",
+    "rank": "天仙·至尊",
+    "title": "上清灵宝天尊",
+    "desc": "三清体系的第二位，出场极少，主要作为天庭高层架构的一部分存在。",
+    "appearance": "",
+    "tags": [
+      "三清",
+      "道教"
+    ],
+    "aiPrompt": "一位威严的道教至尊，灵宝天尊，身穿华丽道袍，手持法宝，站在云端，仙气缭绕，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/82975a17-f182-4dea-997a-51ebf725c86a_10eab574f3bbeb4ebf4b9a9878b1dfa6_ComfyUI_5a2443a5_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "太白金星",
+    "faction": "天庭",
+    "rank": "天仙·文臣",
+    "title": "李长庚·玉帝殿前文臣",
+    "desc": "天庭中最有职场智慧的神仙，两次建议招安悟空，堪称天庭情报总管。",
+    "appearance": "",
+    "tags": [
+      "天庭文臣",
+      "招安",
+      "情报总管"
+    ],
+    "aiPrompt": "一位西游记中的角色，太白金星，天庭中最有职场智慧的神仙，两次建议招安悟空，堪称天庭情报总管。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/f366c577-de92-4338-a070-680934461b7f_b1716a791409eed1abf15b21cbf4dcc9_ComfyUI_305c6b2f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "托塔天王李靖",
+    "faction": "天庭",
+    "rank": "天仙·武将",
+    "title": "降魔大元帅",
+    "desc": "天庭军事统帅，奉命征讨悟空。玲珑宝塔是其标志性法宝。",
+    "appearance": "",
+    "tags": [
+      "天庭武将",
+      "降魔大元帅",
+      "哪吒之父"
+    ],
+    "aiPrompt": "一位西游记中的角色，托塔天王李靖，天庭军事统帅，奉命征讨悟空。玲珑宝塔是其标志性法宝。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/783e5acd-0ef5-473e-9db9-27edb7f82390_1ed292f6a6189240bd6a78454df7fb19_ComfyUI_660b0bcc_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "哪吒",
+    "faction": "天庭",
+    "rank": "天仙·武将",
+    "title": "三坛海会大神中坛元帅",
+    "desc": "天庭最强少年战神，三头六臂，脚踏风火轮，降服牛魔王一战最为精彩。",
+    "appearance": "",
+    "tags": [
+      "少年战神",
+      "三头六臂",
+      "降服牛魔王"
+    ],
+    "aiPrompt": "一位西游记中的角色，哪吒，天庭最强少年战神，三头六臂，脚踏风火轮，降服牛魔王一战最为精彩。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/e2f56167-0bd0-4053-9889-ad2e41779f08_c35288a32e97074008c4693370986d13_ComfyUI_07e1f6e7_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "王母娘娘",
+    "faction": "天庭",
+    "rank": "天仙·后妃",
+    "title": "瑶池金母·蟠桃掌管者",
+    "desc": "住在瑶池，掌管蟠桃园和蟠桃胜会，蟠桃胜会被搅乱是大闹天宫的导火索。",
+    "appearance": "",
+    "tags": [
+      "瑶池",
+      "蟠桃胜会",
+      "蟠桃园"
+    ],
+    "aiPrompt": "一位西游记中的角色，王母娘娘，住在瑶池，掌管蟠桃园和蟠桃胜会，蟠桃胜会被搅乱是大闹天宫的导火索。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/916c0be2-4e89-46bf-ba62-855d92474708_770759e54ca9a5d3d05363de25657bfe_ComfyUI_1c1306b3_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "菩提祖师",
+    "faction": "天庭",
+    "rank": "散仙·神秘",
+    "title": "灵台方寸山·斜月三星洞",
+    "desc": "西游记最大的谜团。教授悟空长生妙道、七十二变、筋斗云，真实身份从未交代。",
+    "appearance": "",
+    "tags": [
+      "最大谜团",
+      "悟空之师",
+      "三教合一"
+    ],
+    "aiPrompt": "一位西游记中的角色，菩提祖师，西游记最大的谜团。教授悟空长生妙道、七十二变、筋斗云，真实身份从未交代。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/e51dee97-74ae-4804-b849-eb035ec35107_bdfac2e04e151b3313b631ef0e9ad5e7_ComfyUI_231431e9_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "镇元大仙",
+    "faction": "天庭",
+    "rank": "地仙·至尊",
+    "title": "地仙之祖·万寿山五庄观",
+    "desc": "最超然的存在，一招袖里乾坤轻松擒住悟空，实力深不可测。",
+    "appearance": "",
+    "tags": [
+      "地仙之祖",
+      "袖里乾坤",
+      "人参果树"
+    ],
+    "aiPrompt": "一位西游记中的角色，镇元大仙，最超然的存在，一招袖里乾坤轻松擒住悟空，实力深不可测。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/10a607ff-f86d-4315-9414-05951b6e54fe_44b94ec8be1420a8a6ca24e7544c6616_ComfyUI_699b370d_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "骊山老母",
+    "faction": "天庭",
+    "rank": "散仙·高人",
+    "title": "骊山神秘女仙",
+    "desc": "居骊山的神秘女仙，弟子遍布三界，曾指点悟空寻找毗蓝婆菩萨。",
+    "appearance": "",
+    "tags": [
+      "神秘女仙",
+      "弟子遍布三界"
+    ],
+    "aiPrompt": "一位西游记中的角色，骊山老母，居骊山的神秘女仙，弟子遍布三界，曾指点悟空寻找毗蓝婆菩萨。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1c534712-a2c0-4613-82d6-10465718ec3b_45bb0a961c03507892f675d023696914_ComfyUI_3f48ffe7_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "真武大帝",
+    "faction": "天庭",
+    "rank": "天仙·大帝",
+    "title": "荡魔天尊·北方真武玄天上帝",
+    "desc": "龟蛇二将随行，镇守北方，专司降魔。",
+    "appearance": "",
+    "tags": [
+      "荡魔天尊",
+      "龟蛇二将"
+    ],
+    "aiPrompt": "一位威严的道教至尊，真武大帝，身穿华丽道袍，手持法宝，站在云端，仙气缭绕，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1a1d7504-ea68-4d11-9862-019f4c7af847_653ec92c0007d4783d2cf54cf16f695f_ComfyUI_4695329c_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "王灵官",
+    "faction": "天庭",
+    "rank": "天仙·佐使",
+    "title": "佑圣真君佐使",
+    "desc": "仅是佐使却在大闹天宫时于灵霄殿外挡住悟空。",
+    "appearance": "",
+    "tags": [
+      "灵霄殿",
+      "挡住悟空"
+    ],
+    "aiPrompt": "一位西游记中的角色，王灵官，仅是佐使却在大闹天宫时于灵霄殿外挡住悟空。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/933d14bb-ce80-4568-a897-484b781abd8b_fa1662dca203ba109b737de80b1fa49a_ComfyUI_eea20711_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "赤脚大仙",
+    "faction": "天庭",
+    "rank": "天仙",
+    "title": "赤脚行走·性格随和",
+    "desc": "天庭中性格随和的神仙，蟠桃胜会时被悟空骗走。",
+    "appearance": "",
+    "tags": [
+      "蟠桃胜会",
+      "随和"
+    ],
+    "aiPrompt": "一位西游记中的角色，赤脚大仙，天庭中性格随和的神仙，蟠桃胜会时被悟空骗走。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/f4f35184-2faa-496a-a69c-09e3d712ef33_17a4e6ad37368c4db10d97621082c0f0_ComfyUI_c682fb49_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "东海龙王敖广",
+    "faction": "龙宫",
+    "rank": "龙族·海主",
+    "title": "东海之主",
+    "desc": "四海龙王中最常出场的一位，被悟空强取如意金箍棒。",
+    "appearance": "",
+    "tags": [
+      "金箍棒",
+      "如意金箍棒"
+    ],
+    "aiPrompt": "一位威严的龙王，人身龙首或头生龙角，身穿华丽的龙袍，手持法器，站在水晶宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/b35f2a91-b521-406b-a858-98698fc4bd7c_bb9d757241d3d36cf32a0129f1c7e3cc_ComfyUI_d3568993_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "西海龙王敖闰",
+    "faction": "龙宫",
+    "rank": "龙族·海主",
+    "title": "西海之主·小白龙之父",
+    "desc": "小白龙之父，将纵火之子告上天庭。",
+    "appearance": "",
+    "tags": [
+      "白龙马",
+      "小白龙之父"
+    ],
+    "aiPrompt": "一位威严的龙王，人身龙首或头生龙角，身穿华丽的龙袍，手持法器，站在水晶宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/83c1eb41-77e9-424e-bd81-a614d3f24edc_6e70201560cc4ff57632e029887c75ce_ComfyUI_9773186f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "南海龙王敖钦",
+    "faction": "龙宫",
+    "rank": "龙族·海主",
+    "title": "南海之主",
+    "desc": "四海龙王之一，在取经途中曾协助降雨。",
+    "appearance": "",
+    "tags": [
+      "四海龙王"
+    ],
+    "aiPrompt": "一位威严的龙王，人身龙首或头生龙角，身穿华丽的龙袍，手持法器，站在水晶宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1d5dd94c-46a3-4e65-a47e-1c73dc0f993c_bfabc2f0f9c99bcf0552c116ad485fe0_ComfyUI_9573aa1c_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "北海龙王敖顺",
+    "faction": "龙宫",
+    "rank": "龙族·海主",
+    "title": "北海之主",
+    "desc": "四海龙王之一，镇守北方海域。",
+    "appearance": "",
+    "tags": [
+      "四海龙王"
+    ],
+    "aiPrompt": "一位威严的龙王，人身龙首或头生龙角，身穿华丽的龙袍，手持法器，站在水晶宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/b1d8798b-3c57-4af3-903b-a31b2453b8a6_4188aa55aa63b419a990d2965ca8635f_ComfyUI_2888f59d_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "泾河龙王",
+    "faction": "龙宫",
+    "rank": "龙族",
+    "title": "泾河龙神",
+    "desc": "因与袁守诚打赌，私自改变降雨，被魏征梦中斩首。",
+    "appearance": "",
+    "tags": [
+      "赌卦",
+      "被斩首",
+      "唐太宗游地府"
+    ],
+    "aiPrompt": "一位威严的龙王，人身龙首或头生龙角，身穿华丽的龙袍，手持法器，站在水晶宫中，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/0209fbcf-b22e-4a05-be7a-84c6790492c6_dcf587615c53d382e4a062ad732b562e_ComfyUI_39de8d83_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "摩昂太子",
+    "faction": "龙宫",
+    "rank": "龙族·太子",
+    "title": "西海龙王太子",
+    "desc": "忠勇不徇私情，擒拿表弟小鼉龙，协助捉拿犀牛精。",
+    "appearance": "",
+    "tags": [
+      "忠勇",
+      "擒鼉龙",
+      "犀牛精"
+    ],
+    "aiPrompt": "一位西游记中的角色，摩昂太子，忠勇不徇私情，擒拿表弟小鼉龙，协助捉拿犀牛精。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/7b8d9614-2727-405b-a3a0-abb707f8dcc1_9876a2b8a42a319ba8569c16a9133921_ComfyUI_9b465166_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "白无常（谢必安）",
+    "faction": "地府",
+    "rank": "地府·差役",
+    "title": "勾魂使者·白无常",
+    "desc": "地府勾魂使者。生前与黑无常是好友，因守约被洪水淹死。身高七尺，面白如纸，舌吐至胸。帽上写'一见生财'。",
+    "appearance": "",
+    "tags": [
+      "谢必安",
+      "勾魂使者",
+      "一见生财"
+    ],
+    "aiPrompt": "一位高大的鬼差，面白如纸，舌吐至胸，身穿白色长袍，头戴写有'一见生财'的高帽，手持哭丧棒，阴森可怖，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/7b6317c2-d903-42e4-b83f-8ff5c6c61666_08d65d721bf23e0c43b511e7ba25cebb_ComfyUI_2d866555_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "黑无常（范无救）",
+    "faction": "地府",
+    "rank": "地府·差役",
+    "title": "勾魂使者·黑无常",
+    "desc": "地府勾魂使者。生前与白无常是好友，因赴约时急流无法过桥溺亡。身矮而壮，面黑如炭。帽上写'天下太平'。",
+    "appearance": "",
+    "tags": [
+      "范无救",
+      "勾魂使者",
+      "天下太平"
+    ],
+    "aiPrompt": "一位矮壮的鬼差，面黑如炭，身穿黑色长袍，头戴写有'天下太平'的高帽，手持铁链，表情凶恶，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/c1a1ab41-6263-4eb8-8374-a0bef08e5cdd_595ecc2bf91ef6234b92472b70d63de7_ComfyUI_1532baab_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "牛头",
+    "faction": "地府",
+    "rank": "地府·差役",
+    "title": "地府狱卒·牛头",
+    "desc": "地府狱卒，人身牛首，看守地狱押送亡魂。",
+    "appearance": "",
+    "tags": [
+      "狱卒",
+      "牛头",
+      "押送亡魂"
+    ],
+    "aiPrompt": "一位地府狱卒，人身牛首，头生双角，手持钢叉，身穿差役服饰，站在地狱门口，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1510fedc-a4fd-43a6-87eb-86c2f7913ec8_1734bdf36805017cef43a848633dee74_ComfyUI_704be21f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "马面",
+    "faction": "地府",
+    "rank": "地府·差役",
+    "title": "地府狱卒·马面",
+    "desc": "地府狱卒，人身马首，与牛头搭档看守地狱。",
+    "appearance": "",
+    "tags": [
+      "狱卒",
+      "看守地狱",
+      "马面"
+    ],
+    "aiPrompt": "一位地府狱卒，人身马首，面长如马，手持铁链，身穿差役服饰，站在地狱门口，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/a762601c-b9df-40ec-9aa1-2f1090c342f9_b5de568540e473529cca3f37f16cd594_ComfyUI_2cde358f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "张道陵",
+    "faction": "天庭",
+    "rank": "天仙·天师",
+    "title": "天师道祖·四大天师之首",
+    "desc": "道教创始人之一，四大天师之首，在凌霄殿传达玉帝旨意。",
+    "appearance": "",
+    "tags": [
+      "四大天师",
+      "道教创始人",
+      "天师印"
+    ],
+    "aiPrompt": "一位仙风道骨的天师，张道陵，身穿道袍，手持拂尘或法器，面容慈祥，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/194318c1-eb1c-43b9-a51d-51dd86b0f6ce_c4dd5fecb2338a704d9bfe56d5d7dccf_ComfyUI_65f60592_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "葛洪",
+    "faction": "天庭",
+    "rank": "天仙·天师",
+    "title": "抱朴子·四大天师之二",
+    "desc": "晋代著名道士、炼丹家、医药学家，著有《抱朴子》。",
+    "appearance": "",
+    "tags": [
+      "四大天师",
+      "抱朴子",
+      "炼丹家"
+    ],
+    "aiPrompt": "一位仙风道骨的天师，葛洪，身穿道袍，手持拂尘或法器，面容慈祥，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/2109f73a-c560-4625-86b1-ed972469da3d_c59233b66cb469429b66f5234fdfe9ea_ComfyUI_697bc966_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "许逊",
+    "faction": "天庭",
+    "rank": "天仙·天师",
+    "title": "净明道祖·四大天师之三",
+    "desc": "晋代道士，传说曾斩蛟除妖，被尊为净明道祖师。",
+    "appearance": "",
+    "tags": [
+      "四大天师",
+      "净明道",
+      "斩蛟"
+    ],
+    "aiPrompt": "一位仙风道骨的天师，许逊，身穿道袍，手持拂尘或法器，面容慈祥，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/881045e6-cb54-46d4-bbd8-697764ae34af_8c4ac8eb2a5006e1778bef3d3a327590_ComfyUI_b3398471_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "邱弘济",
+    "faction": "天庭",
+    "rank": "天仙·天师",
+    "title": "四大天师之四",
+    "desc": "四大天师中最年轻的一位，在凌霄殿辅佐玉帝。",
+    "appearance": "",
+    "tags": [
+      "四大天师",
+      "玉帝近臣"
+    ],
+    "aiPrompt": "一位仙风道骨的天师，邱弘济，身穿道袍，手持拂尘或法器，面容慈祥，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/a1915fab-268f-49cd-8444-dea4df0833eb_23eeb20cb478fc0a136d2de321907591_ComfyUI_05cd55d6_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "秦广王",
+    "faction": "地府",
+    "rank": "地府·第一殿",
+    "title": "第一殿·专司人间寿夭",
+    "desc": "十殿阎王之首，掌管人间寿夭生死册。亡魂到地府后首先在此接受初审。",
+    "appearance": "",
+    "tags": [
+      "十殿之首",
+      "生死册"
+    ],
+    "aiPrompt": "一位西游记中的角色，秦广王，十殿阎王之首，掌管人间寿夭生死册。亡魂到地府后首先在此接受初审。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/1ea5aa14-acb7-4730-b278-6ddb5f6deb6a_5d539401e798b926f19d8e2d685c0b87_ComfyUI_c0d579dc_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "楚江王",
+    "faction": "地府",
+    "rank": "地府·第二殿",
+    "title": "第二殿·掌管活大地狱",
+    "desc": "十殿阎王之二，掌管活大地狱，又称剥衣亭寒冰地狱。",
+    "appearance": "",
+    "tags": [
+      "活大地狱",
+      "寒冰地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，楚江王，十殿阎王之二，掌管活大地狱，又称剥衣亭寒冰地狱。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/a711936e-d765-4357-bf7e-cc3625e82292_d2b64c0c41a85a6956e90668fb523d84_ComfyUI_192d86fc_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "宋帝王",
+    "faction": "地府",
+    "rank": "地府·第三殿",
+    "title": "第三殿·掌管黑绳大地狱",
+    "desc": "十殿阎王之三，掌管黑绳大地狱，惩罚忤逆不孝者。",
+    "appearance": "",
+    "tags": [
+      "黑绳地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，宋帝王，十殿阎王之三，掌管黑绳大地狱，惩罚忤逆不孝者。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/b79c8121-547f-42fd-b266-7004b175cc5d_e67a4c51cfa15f3bd429646fdb974c13_ComfyUI_84941c2c_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "五官王",
+    "faction": "地府",
+    "rank": "地府·第四殿",
+    "title": "第四殿·掌管合大地狱",
+    "desc": "十殿阎王之四，掌管合大地狱，又称血池地狱。",
+    "appearance": "",
+    "tags": [
+      "合大地狱",
+      "血池地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，五官王，十殿阎王之四，掌管合大地狱，又称血池地狱。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/82767c10-492e-401a-afbf-ba0855b4ee7b_309fc20f1b95f3a052f8438867be148f_ComfyUI_651509b1_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "卞城王",
+    "faction": "地府",
+    "rank": "地府·第六殿",
+    "title": "第六殿·掌管大叫唤大地狱",
+    "desc": "十殿阎王之六，掌管大叫唤大地狱及枉死城。",
+    "appearance": "",
+    "tags": [
+      "大叫唤地狱",
+      "枉死城"
+    ],
+    "aiPrompt": "一位西游记中的角色，卞城王，十殿阎王之六，掌管大叫唤大地狱及枉死城。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/b8c75305-db18-4da7-bb9c-acf60df519cd_8cf40bccab60a8b6e05d762d1f9d4312_ComfyUI_a06cfdfb_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "泰山王",
+    "faction": "地府",
+    "rank": "地府·第七殿",
+    "title": "第七殿·掌管热恼地狱",
+    "desc": "十殿阎王之七，掌管热恼地狱。",
+    "appearance": "",
+    "tags": [
+      "热恼地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，泰山王，十殿阎王之七，掌管热恼地狱。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/5c9bb170-457d-4106-bc6f-367abfdf4f23_27805d7e98301481c1ac19b918630e6b_ComfyUI_37a64493_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "都市王",
+    "faction": "地府",
+    "rank": "地府·第八殿",
+    "title": "第八殿·掌管大热恼地狱",
+    "desc": "十殿阎王之八，掌管大热恼地狱。",
+    "appearance": "",
+    "tags": [
+      "大热恼地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，都市王，十殿阎王之八，掌管大热恼地狱。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/9c656a38-1d0a-4950-a649-00b5e684b827_59f53c08eeda90bf246ce77d8d2009b0_ComfyUI_f4edea24_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "平等王",
+    "faction": "地府",
+    "rank": "地府·第九殿",
+    "title": "第九殿·掌管阿鼻地狱",
+    "desc": "十殿阎王之九，掌管阿鼻地狱（无间地狱），最恐怖的一殿。",
+    "appearance": "",
+    "tags": [
+      "阿鼻地狱",
+      "无间地狱"
+    ],
+    "aiPrompt": "一位西游记中的角色，平等王，十殿阎王之九，掌管阿鼻地狱（无间地狱），最恐怖的一殿。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/2373d1a2-4fca-4b4d-9b47-a7b46398881b_f8ec98a04975d0e7a2e9b911f662e0ca_ComfyUI_5220b99e_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "转轮王",
+    "faction": "地府",
+    "rank": "地府·第十殿",
+    "title": "第十殿·掌管六道轮回",
+    "desc": "十殿阎王之末，掌管六道轮回投生。亡魂经十殿审判后在此投胎转世。",
+    "appearance": "",
+    "tags": [
+      "六道轮回",
+      "投胎转世"
+    ],
+    "aiPrompt": "一位西游记中的角色，转轮王，十殿阎王之末，掌管六道轮回投生。亡魂经十殿审判后在此投胎转世。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/e4b07e11-75ed-41cf-aab0-f7368c57f05e_573d1127eaa0516ff9bd8547795f3e9c_ComfyUI_9a11a84f_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "太上老君",
+    "faction": "天庭",
+    "rank": "天仙·至尊",
+    "title": "道德天尊·太上道祖",
+    "desc": "本名李耳，道教创始人。住在离恨天兜率宫炼金丹，法宝满天飞却管得一塌糊涂。",
+    "appearance": "",
+    "tags": [
+      "三清",
+      "法宝之王",
+      "道教始祖"
+    ],
+    "aiPrompt": "一位威严的道教至尊，太上老君，身穿华丽道袍，手持法宝，站在云端，仙气缭绕，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/4474f587-042d-491f-9ec7-c3294b8f3d4a_6942b16acd0fc54c0bbb9b55fbe1f918_ComfyUI_af7566d4_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "玉皇大帝",
+    "faction": "天庭",
+    "rank": "天仙·帝君",
+    "title": "昊天金阙至尊玉皇上帝",
+    "desc": "三界之主，天庭行政系统最高长官。能调兵遣将征讨悟空，却打不过。",
+    "appearance": "",
+    "tags": [
+      "天庭之主",
+      "三界之主"
+    ],
+    "aiPrompt": "一位威严的天帝，玉皇大帝，身穿华丽帝袍，头戴冕旒，手持玉圭，端坐在龙椅上，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/ee4451e0-7c1f-4c08-acbe-d79151e9cefc_5c7910c361b46d90afc450527eeedef5_ComfyUI_7204a370_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "二郎神杨戬",
+    "faction": "天庭",
+    "rank": "天仙·战将",
+    "title": "二郎显圣真君·玉帝外甥",
+    "desc": "唯一能与悟空正面单挑不落下风的战将，七十二变对八九玄功。",
+    "appearance": "",
+    "tags": [
+      "听调不听宣",
+      "哮天犬",
+      "擒获悟空"
+    ],
+    "aiPrompt": "一位西游记中的角色，二郎神杨戬，唯一能与悟空正面单挑不落下风的战将，七十二变对八九玄功。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://bizyair-prod.oss-cn-shanghai.aliyuncs.com/outputs/99b1d0de-010e-4c21-a1be-09958a97124d_d414215dbf550da1df9aec2060f6f2d7_ComfyUI_879b3085_00001_.png",
+    "recordId": ""
+  },
+  {
+    "name": "太乙救苦天尊",
+    "faction": "天庭",
+    "rank": "天仙·大帝",
+    "title": "四帝之一·青华大帝",
+    "desc": "四帝之一，太乙救苦天尊。坐骑九头狮子（九灵元圣）下凡作怪，悟空请其收回。",
+    "appearance": "",
+    "tags": [
+      "四帝",
+      "九灵元圣",
+      "坐骑九头狮子"
+    ],
+    "aiPrompt": "一位威严的天帝，太乙救苦天尊，身穿华丽帝袍，头戴冕旒，手持玉圭，端坐在龙椅上，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/202603292258030ff223793970461b_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=GybBBvGQC4X4IkJpAUSRibwGBDs%3D&Expires=1775401113",
+    "recordId": ""
+  },
+  {
+    "name": "南极寿星",
+    "faction": "天庭",
+    "rank": "天仙·散仙",
+    "title": "南极仙翁",
+    "desc": "头上有大肉包的老寿星，白鹿坐骑曾下凡作怪（比丘国）。",
+    "appearance": "",
+    "tags": [
+      "南极仙翁",
+      "白鹿坐骑",
+      "比丘国"
+    ],
+    "aiPrompt": "一位西游记中的角色，南极寿星，头上有大肉包的老寿星，白鹿坐骑曾下凡作怪（比丘国）。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/202603292258351a3e3bd2e1b545b9_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=IjrKa3Ic15MKeZ6e2zDAxh8vp%2BQ%3D&Expires=1775401144",
+    "recordId": ""
+  },
+  {
+    "name": "太阴星君",
+    "faction": "天庭",
+    "rank": "天仙·星君",
+    "title": "月宫之主·嫦娥",
+    "desc": "月宫之主，即嫦娥。天蓬元帅因醉酒调戏她被贬下凡。",
+    "appearance": "",
+    "tags": [
+      "天蓬元帅",
+      "嫦娥",
+      "月宫"
+    ],
+    "aiPrompt": "一位西游记中的角色，太阴星君，月宫之主，即嫦娥。天蓬元帅因醉酒调戏她被贬下凡。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329225908c98fe32b40ce42b8_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=InsBMIOVLHq2VFhDAIAaUFSzgtE%3D&Expires=1775401176",
+    "recordId": ""
+  },
+  {
+    "name": "太阳星君",
+    "faction": "天庭",
+    "rank": "天仙·星君",
+    "title": "日宫之主",
+    "desc": "掌管太阳运行的天庭星君，与太阴星君（嫦娥）相对。",
+    "appearance": "",
+    "tags": [
+      "日月",
+      "掌管太阳"
+    ],
+    "aiPrompt": "一位西游记中的角色，太阳星君，掌管太阳运行的天庭星君，与太阴星君（嫦娥）相对。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329225940efe48291893c4bd0_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=TTeihkPCA1d1LWaoSB2sfSkf3G4%3D&Expires=1775401206",
+    "recordId": ""
+  },
+  {
+    "name": "千里眼",
+    "faction": "天庭",
+    "rank": "天仙·侦测",
+    "title": "千里眼·高明",
+    "desc": "与顺风耳搭档，能看千里之外，大闹天宫时负责侦察悟空动向。",
+    "appearance": "",
+    "tags": [
+      "远距感知",
+      "顺风耳搭档",
+      "侦测"
+    ],
+    "aiPrompt": "一位西游记中的角色，千里眼，与顺风耳搭档，能看千里之外，大闹天宫时负责侦察悟空动向。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/2026032923001022bb7b9e5889449d_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=HkS9kQRwlD9FJz%2FlDpelfhUP4dM%3D&Expires=1775401240",
+    "recordId": ""
+  },
+  {
+    "name": "顺风耳",
+    "faction": "天庭",
+    "rank": "天仙·侦测",
+    "title": "顺风耳·高觉",
+    "desc": "与千里眼搭档，能听千里之外，大闹天宫时与千里眼一起侦察。",
+    "appearance": "",
+    "tags": [
+      "远距感知",
+      "千里眼搭档",
+      "侦测"
+    ],
+    "aiPrompt": "一位西游记中的角色，顺风耳，与千里眼搭档，能听千里之外，大闹天宫时与千里眼一起侦察。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/202603292300432c17b1b12b6c43bb_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=l5j0YKAwRFbpRhR%2BRZ%2BPjJwRkKE%3D&Expires=1775401269",
+    "recordId": ""
+  },
+  {
+    "name": "雷公",
+    "faction": "天庭",
+    "rank": "天仙·天象",
+    "title": "掌管雷电",
+    "desc": "天庭风雨雷电体系的神将，与电母搭档掌管雷电。",
+    "appearance": "",
+    "tags": [
+      "风雨雷电",
+      "雷神"
+    ],
+    "aiPrompt": "一位西游记中的角色，雷公，天庭风雨雷电体系的神将，与电母搭档掌管雷电。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230115445e6b9be5baa37a_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=ctnNRpNmmJrSmG%2FBl%2FJRN6bO4c%3D&Expires=1775401302",
+    "recordId": ""
+  },
+  {
+    "name": "电母",
+    "faction": "天庭",
+    "rank": "天仙·天象",
+    "title": "掌管闪电",
+    "desc": "天庭风雨雷电体系的女神，与雷公搭档掌管闪电。",
+    "appearance": "",
+    "tags": [
+      "风雨雷电",
+      "闪电"
+    ],
+    "aiPrompt": "一位西游记中的角色，电母，天庭风雨雷电体系的女神，与雷公搭档掌管闪电。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230146d43b8bf45e18e684_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=Y%2B4k0jTQiZJxLdGLgf8%2F6KEVYg%3D&Expires=1775401333",
+    "recordId": ""
+  },
+  {
+    "name": "风伯",
+    "faction": "天庭",
+    "rank": "天仙·天象",
+    "title": "掌管风",
+    "desc": "天庭风雨雷电体系之神，掌管天下之风。",
+    "appearance": "",
+    "tags": [
+      "风雨雷电",
+      "风神"
+    ],
+    "aiPrompt": "一位西游记中的角色，风伯，天庭风雨雷电体系之神，掌管天下之风。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230221a3ed49b4589403b_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=K%2FjpmbcZ2s7W%2FluM1y2MFgVl%2Fo%3D&Expires=1775401368",
+    "recordId": ""
+  },
+  {
+    "name": "雨师",
+    "faction": "天庭",
+    "rank": "天仙·天象",
+    "title": "掌管雨",
+    "desc": "天庭风雨雷电体系之神，掌管天下之雨。",
+    "appearance": "",
+    "tags": [
+      "风雨雷电",
+      "雨神"
+    ],
+    "aiPrompt": "一位西游记中的角色，雨师，天庭风雨雷电体系之神，掌管天下之雨。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230257ba2b40c9be334a68_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=n3m%2BBkGK0V3fpKjLHSvSvBMmHc%3D&Expires=1775401404",
+    "recordId": ""
+  },
+  {
+    "name": "日游神",
+    "faction": "天庭",
+    "rank": "天仙·巡逻",
+    "title": "白日巡视",
+    "desc": "天庭巡逻体系之神，白天巡视三界，记录人间善恶。",
+    "appearance": "",
+    "tags": [
+      "昼夜巡逻",
+      "记录善恶"
+    ],
+    "aiPrompt": "一位西游记中的角色，日游神，天庭巡逻体系之神，白天巡视三界，记录人间善恶。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230332fa16a7064e3e0f7_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=uDxQoV%2FhBPiJTY%2FCCbJ0uDojSE%3D&Expires=1775401439",
+    "recordId": ""
+  },
+  {
+    "name": "夜游神",
+    "faction": "天庭",
+    "rank": "天仙·巡逻",
+    "title": "夜间巡视",
+    "desc": "天庭巡逻体系之神，夜间巡视三界，记录人间善恶。",
+    "appearance": "",
+    "tags": [
+      "昼夜巡逻",
+      "记录善恶"
+    ],
+    "aiPrompt": "一位西游记中的角色，夜游神，天庭巡逻体系之神，夜间巡视三界，记录人间善恶。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230407a7586999e9cb6e6_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=zRHHv9nDhqkE%2FPfKDfI%2FPK2%2BI4%3D&Expires=1775401474",
+    "recordId": ""
+  },
+  {
+    "name": "九灵元圣",
+    "faction": "灵山",
+    "rank": "妖怪·顶级",
+    "title": "九头狮子·太乙坐骑",
+    "desc": "太乙救苦天尊的坐骑九头狮子，下凡为妖，一爪擒住悟空，实力极强。",
+    "appearance": "",
+    "tags": [
+      "最强坐骑",
+      "九头狮子",
+      "一爪擒悟空"
+    ],
+    "aiPrompt": "一位西游记中的角色，九灵元圣，太乙救苦天尊的坐骑九头狮子，下凡为妖，一爪擒住悟空，实力极强。，中国传统绘画风格，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/202603292304437a1dfbe58b83dbb2_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=SfjI%2BISW4H8OHSFfE%2F8qfHhNmg%3D&Expires=1775401511",
+    "recordId": ""
+  },
+  {
+    "name": "普贤菩萨",
+    "faction": "灵山",
+    "rank": "佛教·菩萨",
+    "title": "大行普贤",
+    "desc": "佛教四大菩萨之一，坐骑黄牙老象。在狮驼岭曾下凡作怪。",
+    "appearance": "",
+    "tags": [
+      "黄牙老象",
+      "狮驼岭",
+      "佛教四大菩萨"
+    ],
+    "aiPrompt": "一位庄严的菩萨，普贤菩萨，身穿华丽法衣，头戴宝冠，手持法器，盘坐在莲花台上，身后有佛光，中国古典绘画风格，水墨画韵味，色彩典雅，细节精致，高质量，8K",
+    "image": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230517c5b0b83ab3ecfb1_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=phGLPpbnzHPszLxVRJ%2FScFrHhQ%3D&Expires=1775401544",
+    "recordId": ""
+  }
+]

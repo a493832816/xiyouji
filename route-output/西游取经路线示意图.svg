@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#404a55" />
+    </marker>
+    <style>
+      .title { font: 700 68px "Microsoft YaHei", sans-serif; fill: #28323b; }
+      .subtitle { font: 500 24px "Microsoft YaHei", sans-serif; fill: #58626d; }
+      .legend-title { font: 700 24px "Microsoft YaHei", sans-serif; fill: #2e3944; }
+      .node-label { font: 600 16px "Microsoft YaHei", sans-serif; fill: #1d2830; text-anchor: middle; dominant-baseline: middle; }
+      .boundary-label { font: 700 16px "Microsoft YaHei", sans-serif; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }
+      .route { fill: none; stroke: #404a55; stroke-width: 5; marker-end: url(#arrow); }
+      .place { fill: #f4b463; stroke: #4d5661; stroke-width: 2; rx: 12; }
+      .boundary { fill: #d86a6a; stroke: #4d5661; stroke-width: 2; rx: 10; }
+      .legend-text { font: 500 18px "Microsoft YaHei", sans-serif; fill: #33404b; dominant-baseline: middle; }
+      .grid-note { font: 500 18px "Microsoft YaHei", sans-serif; fill: #68727d; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="2400" height="1600" fill="#f8fafc" />
+  <text x="1200" y="110" class="title" text-anchor="middle">《西游记》取经路线可编辑矢量示意图（重绘版）</text>
+  <text x="1200" y="152" class="subtitle" text-anchor="middle">画布尺寸 2400×1600 px（按 300 dpi 输出时约 8 × 5.33 英寸）</text>
+  <path class="route" d="M 180 260 L 360 260 L 540 260 L 720 260 L 900 260 L 1080 260 L 1260 260 L 1440 260 L 1620 260 L 1800 260 L 1980 260 L 2160 260 L 2160 560 L 1980 560 L 1800 560 L 1620 560 L 1440 560 L 1260 560 L 1080 560 L 900 560 L 720 560 L 540 560 L 360 560 L 180 560 L 180 860 L 360 860 L 540 860 L 720 860 L 900 860 L 1080 860 L 1260 860 L 1440 860 L 1620 860 L 1800 860 L 1980 860 L 2160 860 L 2160 1160 L 1995 1160 L 1830 1160 L 1665 1160 L 1500 1160 L 1335 1160 L 1170 1160 L 1005 1160 L 840 1160 L 675 1160 L 510 1160 L 345 1160 L 180 1160 L 180 1460 L 360 1460 L 540 1460 L 720 1460 L 900 1460 L 1080 1460 L 1260 1460 L 1440 1460 L 1620 1460 L 1800 1460 L 1980 1460 L 2160 1460" />
+  <rect class="boundary" x="132" y="228" width="96" height="64" /><text class="boundary-label" x="180" y="260">大唐</text>
+  <rect class="place" x="284" y="238" width="152" height="44" /><text class="node-label" x="360" y="260">长安</text>
+  <rect class="place" x="464" y="238" width="152" height="44" /><text class="node-label" x="540" y="260">双叉岭</text>
+  <rect class="boundary" x="672" y="228" width="96" height="64" /><text class="boundary-label" x="720" y="260">两界山</text>
+  <rect class="place" x="824" y="238" width="152" height="44" /><text class="node-label" x="900" y="260">五行山</text>
+  <rect class="place" x="1004" y="238" width="152" height="44" /><text class="node-label" x="1080" y="260">蛇盘山鹰愁涧</text>
+  <rect class="boundary" x="1212" y="228" width="96" height="64" /><text class="boundary-label" x="1260" y="260">西番哈咇界</text>
+  <rect class="place" x="1364" y="238" width="152" height="44" /><text class="node-label" x="1440" y="260">观音禅寺</text>
+  <rect class="place" x="1544" y="238" width="152" height="44" /><text class="node-label" x="1620" y="260">黑风山</text>
+  <rect class="place" x="1724" y="238" width="152" height="44" /><text class="node-label" x="1800" y="260">高老庄</text>
+  <rect class="boundary" x="1932" y="228" width="96" height="64" /><text class="boundary-label" x="1980" y="260">乌斯藏界</text>
+  <rect class="place" x="2084" y="238" width="152" height="44" /><text class="node-label" x="2160" y="260">浮屠山</text>
+  <rect class="place" x="2084" y="538" width="152" height="44" /><text class="node-label" x="2160" y="560">黄风岭</text>
+  <rect class="place" x="1904" y="538" width="152" height="44" /><text class="node-label" x="1980" y="560">流沙河</text>
+  <rect class="boundary" x="1752" y="528" width="96" height="64" /><text class="boundary-label" x="1800" y="560">西牛贺洲</text>
+  <rect class="place" x="1544" y="538" width="152" height="44" /><text class="node-label" x="1620" y="560">万寿山五庄观</text>
+  <rect class="place" x="1364" y="538" width="152" height="44" /><text class="node-label" x="1440" y="560">白虎岭</text>
+  <rect class="boundary" x="1212" y="528" width="96" height="64" /><text class="boundary-label" x="1260" y="560">宝象国界</text>
+  <rect class="place" x="1004" y="538" width="152" height="44" /><text class="node-label" x="1080" y="560">碗子山波月洞</text>
+  <rect class="place" x="824" y="538" width="152" height="44" /><text class="node-label" x="900" y="560">平顶山莲花洞</text>
+  <rect class="boundary" x="672" y="528" width="96" height="64" /><text class="boundary-label" x="720" y="560">乌鸡国界</text>
+  <rect class="place" x="464" y="538" width="152" height="44" /><text class="node-label" x="540" y="560">宝林寺</text>
+  <rect class="place" x="284" y="538" width="152" height="44" /><text class="node-label" x="360" y="560">火云洞</text>
+  <rect class="place" x="104" y="538" width="152" height="44" /><text class="node-label" x="180" y="560">衡阳黑水河</text>
+  <rect class="boundary" x="132" y="828" width="96" height="64" /><text class="boundary-label" x="180" y="860">车迟国</text>
+  <rect class="place" x="284" y="838" width="152" height="44" /><text class="node-label" x="360" y="860">三清观</text>
+  <rect class="place" x="464" y="838" width="152" height="44" /><text class="node-label" x="540" y="860">通天河</text>
+  <rect class="place" x="644" y="838" width="152" height="44" /><text class="node-label" x="720" y="860">金兜洞</text>
+  <rect class="boundary" x="852" y="828" width="96" height="64" /><text class="boundary-label" x="900" y="860">西凉女儿国</text>
+  <rect class="place" x="1004" y="838" width="152" height="44" /><text class="node-label" x="1080" y="860">破儿洞</text>
+  <rect class="place" x="1184" y="838" width="152" height="44" /><text class="node-label" x="1260" y="860">毒敌山琵琶洞</text>
+  <rect class="place" x="1364" y="838" width="152" height="44" /><text class="node-label" x="1440" y="860">火焰山</text>
+  <rect class="boundary" x="1572" y="828" width="96" height="64" /><text class="boundary-label" x="1620" y="860">祭赛国界</text>
+  <rect class="place" x="1724" y="838" width="152" height="44" /><text class="node-label" x="1800" y="860">乱石山碧波潭</text>
+  <rect class="place" x="1904" y="838" width="152" height="44" /><text class="node-label" x="1980" y="860">荆棘岭木仙庵</text>
+  <rect class="place" x="2084" y="838" width="152" height="44" /><text class="node-label" x="2160" y="860">小雷音寺</text>
+  <rect class="boundary" x="2112" y="1128" width="96" height="64" /><text class="boundary-label" x="2160" y="1160">朱紫国界</text>
+  <rect class="place" x="1919" y="1138" width="152" height="44" /><text class="node-label" x="1995" y="1160">七绝山</text>
+  <rect class="place" x="1754" y="1138" width="152" height="44" /><text class="node-label" x="1830" y="1160">麒麟山獬豸洞</text>
+  <rect class="place" x="1589" y="1138" width="152" height="44" /><text class="node-label" x="1665" y="1160">盘丝岭盘丝洞</text>
+  <rect class="place" x="1424" y="1138" width="152" height="44" /><text class="node-label" x="1500" y="1160">狮驼岭狮驼洞</text>
+  <rect class="place" x="1259" y="1138" width="152" height="44" /><text class="node-label" x="1335" y="1160">黄花观</text>
+  <rect class="boundary" x="1122" y="1128" width="96" height="64" /><text class="boundary-label" x="1170" y="1160">比丘国界</text>
+  <rect class="place" x="929" y="1138" width="152" height="44" /><text class="node-label" x="1005" y="1160">清华洞府</text>
+  <rect class="place" x="764" y="1138" width="152" height="44" /><text class="node-label" x="840" y="1160">无底洞</text>
+  <rect class="place" x="599" y="1138" width="152" height="44" /><text class="node-label" x="675" y="1160">隐雾山</text>
+  <rect class="boundary" x="462" y="1128" width="96" height="64" /><text class="boundary-label" x="510" y="1160">玉华府界</text>
+  <rect class="place" x="269" y="1138" width="152" height="44" /><text class="node-label" x="345" y="1160">凤仙郡</text>
+  <rect class="place" x="104" y="1138" width="152" height="44" /><text class="node-label" x="180" y="1160">钉头山虎口洞</text>
+  <rect class="boundary" x="132" y="1428" width="96" height="64" /><text class="boundary-label" x="180" y="1460">金平府界</text>
+  <rect class="place" x="284" y="1438" width="152" height="44" /><text class="node-label" x="360" y="1460">竹节山</text>
+  <rect class="place" x="464" y="1438" width="152" height="44" /><text class="node-label" x="540" y="1460">青龙山</text>
+  <rect class="boundary" x="672" y="1428" width="96" height="64" /><text class="boundary-label" x="720" y="1460">天竺国界</text>
+  <rect class="place" x="824" y="1438" width="152" height="44" /><text class="node-label" x="900" y="1460">百脚山</text>
+  <rect class="place" x="1004" y="1438" width="152" height="44" /><text class="node-label" x="1080" y="1460">铜台府地灵县</text>
+  <rect class="place" x="1184" y="1438" width="152" height="44" /><text class="node-label" x="1260" y="1460">凌云渡</text>
+  <rect class="place" x="1364" y="1438" width="152" height="44" /><text class="node-label" x="1440" y="1460">大雷音寺</text>
+  <rect class="boundary" x="1572" y="1428" width="96" height="64" /><text class="boundary-label" x="1620" y="1460">半退回界</text>
+  <rect class="place" x="1724" y="1438" width="152" height="44" /><text class="node-label" x="1800" y="1460">通天河</text>
+  <rect class="boundary" x="1932" y="1428" width="96" height="64" /><text class="boundary-label" x="1980" y="1460">大唐</text>
+  <rect class="place" x="2084" y="1438" width="152" height="44" /><text class="node-label" x="2160" y="1460">东归终点</text>
+  <g transform="translate(60,180)">
+    <text class="legend-title" x="0" y="0">图例</text>
+    <rect class="place" x="0" y="18" width="110" height="38" />
+    <text class="legend-text" x="130" y="37">地点节点（山川/寺观/洞府）</text>
+    <rect class="boundary" x="0" y="72" width="78" height="52" />
+    <text class="legend-text" x="130" y="98">国界/洲界/阶段边界</text>
+    <line x1="0" y1="150" x2="108" y2="150" class="route" />
+    <text class="legend-text" x="130" y="150">路线方向（箭头）</text>
+  </g>
+  <text x="60" y="1560" class="grid-note">说明：该 SVG 采用结构化节点重绘，节点顺序与《西游路线.jpg》流程一致，用于后续编辑、校准与印刷输出。</text>
+</svg>

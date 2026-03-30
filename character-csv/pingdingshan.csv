@@ -1,0 +1,8 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+pingdingshan,平顶山,,地点,妖界,金角银角大王,踞莲花洞
+wukong_pingding,孙悟空,pingdingshan,斗战胜佛,人间,齐天大圣,
+tangseng_pingding,唐僧（玄奘）,wukong_pingding,人间·圣僧,人间,大唐圣僧,
+zhubajie_pingding,猪八戒,wukong_pingding,净坛使者,人间,原天蓬元帅,
+shaseng_pingding,沙僧（沙悟净）,wukong_pingding,金身罗汉,人间,原卷帘大将,
+taishang_pingding,太上老君,pingdingshan,天仙·至尊,天庭,道德天尊,法宝主人
+tudishen_pingding,土地神,pingdingshan,地府·基层,地府,土地公公,情报来源

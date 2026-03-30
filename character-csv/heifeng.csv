@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+heifeng,黑风山,,地点,妖界,黑熊精所在,黑熊精盗走袈裟
+wukong_heifeng,孙悟空,heifeng,斗战胜佛,人间,齐天大圣,讨要袈裟
+tangseng_heifeng,唐僧（玄奘）,wukong_heifeng,人间·圣僧,人间,大唐圣僧,袈裟被盗
+guanyin_heifeng,观音菩萨,heifeng,佛教·菩萨,灵山,南海观世音,收服黑熊精

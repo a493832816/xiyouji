@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+baoxiangguo,宝象国,,地点,人间,黄袍怪所在,掳百花羞公主
+baoxiang_king,宝象国王,baoxiangguo,人间·帝王,人间,宝象国王,
+huangpao,黄袍怪,baoxiangguo,天仙·星官,天庭,奎木狼,占碗子山波月洞
+baihuaxiu,百花羞公主,baoxiangguo,人间·公主,人间,百花羞公主,被掳

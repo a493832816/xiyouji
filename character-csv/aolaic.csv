@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+aolaic,傲来村,,地点,人间,傲来国村落,傲来国近海村落
+wukong_aolaic,孙悟空,aolaic,斗战胜佛,人间,齐天大圣,石猴出世传说
+donghai_aolaic,东海龙王敖广,aolaic,龙族·海主,龙宫,东海之主,四海龙王之首
+tudishen_aolaic,土地神,aolaic,地府·基层,地府,土地公公,基层神仙

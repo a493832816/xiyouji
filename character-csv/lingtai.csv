@@ -1,0 +1,4 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+lingtai,灵台方寸山,,地点,天庭,菩提祖师道场,斜月三星洞所在
+puti,菩提祖师,lingtai,散仙·神秘,天庭,悟空之师,西游记最大的谜团
+wukong_lingtai,孙悟空,puti,斗战胜佛,人间,齐天大圣,学艺弟子

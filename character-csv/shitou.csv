@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+shitou,狮驼岭,,地点,妖界,青狮白象大鹏,势力浩大，城一国皆妖
+qingzhi,青狮大王,shitou,妖怪·顶级,妖界,文殊菩萨坐骑,青毛狮子
+baixiang,白象大王,shitou,妖怪·顶级,妖界,普贤菩萨坐骑,黄牙老象
+dapeng,大鹏金翅雕,shitou,佛教·护法,灵山,云程万里鹏·如来舅舅,取经路上最强妖怪

@@ -1,0 +1,9 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+huaguo,花果山,,地点,人间,美猴王诞生地,十洲祖脉，水帘洞洞天
+wukong_huaguo,孙悟空,huaguo,斗战胜佛,人间,齐天大圣,美猴王诞生称王之地
+taibai_huaguo,太白金星,huaguo,天仙·文臣,天庭,玉帝殿前文臣,两次招安
+lijing_huaguo,托塔天王李靖,huaguo,天仙·武将,天庭,降魔大元帅,率兵征讨
+nezha_huaguo,哪吒,huaguo,天仙·武将,天庭,中坛元帅,随父征讨
+erlang_huaguo,二郎神杨戬,huaguo,天仙·战将,天庭,二郎显圣真君,擒获悟空
+guanyin_huaguo,观音菩萨,huaguo,佛教·菩萨,灵山,南海观世音,推荐二郎神
+donghai_huaguo,东海龙王敖广,huaguo,龙族·海主,龙宫,东海之主,被借宝

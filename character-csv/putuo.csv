@@ -1,0 +1,8 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+putuo,普陀山,,地点,灵山,观音道场,观世音菩萨应化道场
+guanyin,观音菩萨,putuo,佛教·菩萨,灵山,南海观世音·大慈大悲,出场最多的佛界角色
+wukong_putuo,孙悟空,guanyin,斗战胜佛,人间,齐天大圣,常来求助
+tangseng_putuo,唐僧（玄奘）,guanyin,人间·圣僧,人间,大唐圣僧,赐紧箍
+zhubajie_putuo,猪八戒,guanyin,净坛使者,人间,原天蓬元帅,
+shaseng_putuo,沙僧（沙悟净）,guanyin,金身罗汉,人间,原卷帘大将,
+bailongma_putuo,白龙马,guanyin,八部天龙,人间,西海三太子,

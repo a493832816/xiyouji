@@ -1,0 +1,23 @@
+:root {
+  --paper: #d4bd8b;
+  --ink: #1f2b35;
+  --label-bg: #efe8c9;
+  --label-border: #2f4c58;
+  --sea: #20495c;
+  --mountain: #58644f;
+  --city: #7a2e2e;
+  --temple: #3a6b4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #3b2a18 0%, #16110d 60%, #090807 100%);
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  color: var(--ink);
+  padding: 1rem;
+}

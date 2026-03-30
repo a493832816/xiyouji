@@ -1,0 +1,4 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+xiaoleiyinsi,小雷音寺,,地点,妖界,黄眉老佛所设假雷音,人种袋、金铙困住悟空
+huangmei,黄眉老佛,xiaoleiyinsi,佛教·护法,灵山,弥勒座前童子,所设假雷音
+miles_fo,弥勒佛,xiaoleiyinsi,佛教·未来佛,灵山,东来佛祖,收回黄眉

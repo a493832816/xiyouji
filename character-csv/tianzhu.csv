@@ -1,0 +1,5 @@
+recordId,name,parentRecordId,rank,faction,title,desc
+tianzhu,天竺国,,地点,人间,玉兔假扮公主,欲配唐僧
+tianzhu_king,天竺国王,tianzhu,人间·帝王,人间,天竺国王,
+tianzhu_princess,天竺公主,tianzhu,人间·公主,妖界,玉兔假扮,抛绣球招亲
+taiyin_tianzhu,太阴星君,tianzhu,天仙·星君,天庭,月宫之主,收服玉兔
