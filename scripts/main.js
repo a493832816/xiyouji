@@ -14,6 +14,9 @@ import { renderCharacterPanel, clearCharacterPanel } from "./character-panel.js"
 // 热加载模块（仅开发环境）
 import './hot-reload.js';
 
+console.log('[DEBUG] main.js 开始执行');
+console.log('[DEBUG] points 数量:', points?.length);
+
 const mapViewport = document.getElementById("map-viewport");
 const mapStage = document.getElementById("map-stage");
 const poiLayer = document.getElementById("poi-layer");
