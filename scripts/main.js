@@ -156,17 +156,21 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
   }
 
   function openModal(point) {
+    console.log('[DEBUG] openModal called with point:', point);
     if (!modalOverlay) createModal();
 
     // 清空内容
     modalContent.innerHTML = '';
 
     // 渲染人物面板并获取关闭按钮
+    console.log('[DEBUG] characters:', point.characters);
     const closeBtn = renderCharacterPanel(modalContent, point.characters || [], point.name);
+    console.log('[DEBUG] closeBtn:', closeBtn);
 
     // 显示弹框
     modalOverlay.classList.add('active');
     document.body.style.overflow = 'hidden';
+    console.log('[DEBUG] modal shown, overlay:', modalOverlay);
 
     // 绑定关闭按钮
     if (closeBtn) {
@@ -284,7 +288,10 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
     if (!target) {
       return;
     }
-    const point = findPoiById(points, target.dataset.poiId);
+    const poiId = target.dataset.poiId;
+    console.log('[DEBUG] 点击 POI:', poiId);
+    const point = findPoiById(points, poiId);
+    console.log('[DEBUG] 找到 point:', point);
     if (!point) {
       return;
     }
