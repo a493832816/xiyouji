@@ -1,12 +1,11 @@
 import { createMapTransformController } from "./map-controls.js";
 import { factionZones, legends, mapMeta, points, routePath, routePathMarkers, terrainPaths } from "./poi-data.js";
 import {
-  renderDetailList,
-  renderFactionZones,
-  renderLegends,
   renderMapLabels,
-  renderPois,
-  renderRoute,
+  renderFactionZones
+  renderLegends
+  renderPois
+  renderRoute
   renderTerrain
 } from "./map-renderer.js";
 import { findPoiById, formatTooltipText } from "./map-utils.js";
@@ -20,7 +19,6 @@ const terrainLayer = document.getElementById("terrain-layer");
 const factionLayer = document.getElementById("faction-layer");
 const labelLayer = document.getElementById("label-layer");
 const legendList = document.getElementById("legend-list");
-const detailsList = document.getElementById("poi-details");
 const tooltip = document.getElementById("poi-tooltip");
 const zoomInButton = document.getElementById("zoom-in");
 const zoomOutButton = document.getElementById("zoom-out");
@@ -29,7 +27,7 @@ const calibrateToggleButton = document.getElementById("calibrate-toggle");
 const calibrateCopyButton = document.getElementById("calibrate-copy");
 const calibrateStatus = document.getElementById("calibrate-status");
 
-if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && factionLayer && labelLayer && legendList && detailsList && tooltip) {
+if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && factionLayer && labelLayer && legendList && tooltip) {
   const baseImage = document.getElementById("map-base-image");
   if (baseImage) {
     baseImage.src = mapMeta.imagePath;
@@ -47,7 +45,6 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
   renderRoute(routeLayer, routePath, routePathMarkers);
   renderPois(poiLayer, points);
   renderLegends(legendList, legends);
-  renderDetailList(detailsList, points);
 
   const controller = createMapTransformController({
     viewport: mapViewport,
@@ -120,46 +117,83 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
     copyLastPoiPosition();
   });
 
-  // 保存原始详情的函数，以便从人物面板返回
-  let originalDetail = null;
+  // ========== 弹框相关代码 ==========
+
+  // 创建弹框容器
+  let modalOverlay = null;
+  let modalContent = null;
+
+  function createModal() {
+    if (modalOverlay) return;
+
+    modalOverlay = document.createElement('div');
+    modalOverlay.className = 'character-modal-overlay';
+    modalOverlay.setAttribute('role', 'dialog');
+    modalOverlay.setAttribute('aria-modal', 'true');
+
+    modalContent = document.createElement('div');
+    modalContent.className = 'character-modal-content';
+
+    modalOverlay.appendChild(modalContent);
+    document.body.appendChild(modalOverlay);
+
+    // 点击遮罩关闭
+    modalOverlay.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) {
+        closeModal();
+      }
+    });
+
+    // ESC 键关闭
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+        closeModal();
+      }
+    });
+  }
+
+  function openModal(point) {
+    if (!modalOverlay) createModal();
+
+    // 清空内容
+    modalContent.innerHTML = '';
+
+    // 渲染人物面板
+    renderCharacterPanel(modalContent, point.characters || [], point.name);
+
+    // 显示弹框
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+
+    // 绑定关闭按钮
+    const closeBtn = modalContent.querySelector('.character-panel-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', closeModal);
+    }
+  }
+
+  function closeModal() {
+    if (modalOverlay) {
+      modalOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+      clearCharacterPanel(modalContent);
+    }
+  }
+
+  // ========== POI 交互 ==========
 
   function clearActivePoi() {
     document.querySelectorAll(".poi.active").forEach((poi) => poi.classList.remove("active"));
-    document.querySelectorAll(".poi-detail.active").forEach((detail) => detail.classList.remove("active"));
-  }
-
-  function restoreOriginalDetail() {
-    clearCharacterPanel(detailsList);
-    if (originalDetail) {
-      originalDetail.classList.add("active");
-      originalDetail.scrollIntoView({ block: "nearest", behavior: "smooth" });
-    }
   }
 
   function activatePoi(point) {
     clearActivePoi();
-    clearCharacterPanel(detailsList);
-    originalDetail = null;
 
     const poiNode = poiLayer.querySelector(`[data-poi-id="${point.id}"]`);
-    const detailNode = document.getElementById(`poi-${point.id}`);
     poiNode?.classList.add("active");
-    
-    // 检查是否有 characters 数据
-    if (point.characters && point.characters.length > 0) {
-      // 显示人物面板
-      const closeBtn = renderCharacterPanel(detailsList, point.characters, point.name);
-      if (closeBtn) {
-        closeBtn.addEventListener("click", () => {
-          restoreOriginalDetail();
-        });
-      }
-    } else {
-      // 没有 characters 数据，保持原有行为
-      detailNode?.classList.add("active");
-      originalDetail = detailNode;
-      detailNode?.scrollIntoView({ block: "nearest", behavior: "smooth" });
-    }
+
+    // 打开弹框显示人物关系
+    openModal(point);
   }
 
   function showTooltip(event, point) {
@@ -257,22 +291,12 @@ if (mapStage && mapViewport && poiLayer && routeLayer && terrainLayer && faction
     location.hash = `poi-${point.id}`;
   });
 
-  detailsList.addEventListener("click", (event) => {
-    const card = event.target.closest(".poi-detail");
-    if (!card) {
-      return;
-    }
-    const point = findPoiById(points, card.dataset.poiId);
-    if (!point) {
-      return;
-    }
-    activatePoi(point);
-    controller.centerOnPoint(point);
-  });
-
+  // 初始化时如果有 hash，打开对应的弹框
   const hashId = decodeURIComponent(location.hash || "").replace("#poi-", "");
-  const initialPoi = findPoiById(points, hashId) || points[0];
+  const initialPoi = findPoiById(points, hashId);
   if (initialPoi) {
-    activatePoi(initialPoi);
+    setTimeout(() => {
+      activatePoi(initialPoi);
+    }, 300);
   }
 }
