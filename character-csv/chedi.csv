@@ -1,6 +1,6 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 chedi,车迟国,chedi,chedi,车迟国,妖界,地点,,,
-sanqingguan,三清观,chedi,chedi,车迟国,其他,地点,,,
+sanqingguan,三清观,chedi,chedi,车迟国,其他,地点,,,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E4%B8%89%E6%B8%85.png
 sanqingguan_1,羊力大仙,sanqingguan,chedi,车迟国,其他,其他,,西游记中的仙人，修仙得道。,
 sanqingguan_2,虎力大仙,sanqingguan,chedi,车迟国,其他,其他,,西游记中的仙人，修仙得道。,
 sanqingguan_3,鹿力大仙,sanqingguan,chedi,车迟国,其他,其他,,西游记中的仙人，修仙得道。,
