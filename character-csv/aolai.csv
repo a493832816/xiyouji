@@ -1,5 +1,5 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-aolai,傲来国,,地点,人间,花果山所在国,花果山所在国度
-wukong_aolai,孙悟空,aolai,斗战胜佛,人间,齐天大圣,在此活动
-donghai_aolai,东海龙王敖广,aolai,龙族·海主,龙宫,东海之主,近邻
-chenghuang,城隍,aolai,地府·基层,地府,城隍老爷,城市守护神
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+aolai,傲来国,aolai,aolai,傲来国,人间,地点,,,
+aolai,傲来国,aolai,aolai,傲来国,人间,地点,花果山所在国,花果山所在国度,
+aolai_3,群猴,aolai,aolai,傲来国,花果山,妖猴,猴子猴孙,西游记中的角色，猴子猴孙。,
+aolai_4,老猴,aolai,aolai,傲来国,花果山,妖猴,老猴子,西游记中的角色，老猴子。,

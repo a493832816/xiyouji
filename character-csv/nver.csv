@@ -1,3 +1,13 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-nver,西梁女国,,地点,人间,举国皆女,女王欲招唐僧为夫
-nver_queen,西梁女王,nver,人间·帝王,人间,女儿国国王,欲招唐僧为夫
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+nver,女儿国,nver,nver,女儿国,妖界,地点,,,
+nver,西梁女国,nver,nver,女儿国,人间,地点,举国皆女,女王欲招唐僧为夫,
+nver_1,西梁女王,nver,nver,女儿国,人间,人间·帝王,女儿国国王,欲招唐僧为夫,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/西梁女王.png
+nverguo_cun,西粱女国村舍,nver,nver,女儿国,其他,地点,,,
+nverguo_cun_1,老婆婆,nverguo_cun,nver,女儿国,其他,其他,,西游记中的角色，出现在取经路上。,
+yingyangtai,迎阳台/照胎泉,nver,nver,女儿国,其他,地点,,,
+nverguo,女儿国,nver,nver,女儿国,人间,地点,,西梁女国，全女之国,
+nverguo_2,女儿国国王,nverguo,nver,女儿国,其他,其他,,西游记中的国王，掌管女儿国。,
+nverguo_3,女官,nverguo,nver,女儿国,其他,其他,,西游记中的角色，出现在取经路上。,
+nverguo_5,当驾太师,nverguo,nver,女儿国,其他,其他,,西游记中的角色，出现在取经路上。,
+nverguo_8,迎阳驿丞,nverguo,nver,女儿国,其他,其他,,西游记中的角色，出现在取经路上。,
+yingyangyi,迎阳驿,nver,nver,女儿国,其他,地点,,,

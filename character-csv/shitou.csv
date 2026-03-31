@@ -1,5 +1,10 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-shitou,狮驼岭,,地点,妖界,青狮白象大鹏,势力浩大，城一国皆妖
-qingzhi,青狮大王,shitou,妖怪·顶级,妖界,文殊菩萨坐骑,青毛狮子
-baixiang,白象大王,shitou,妖怪·顶级,妖界,普贤菩萨坐骑,黄牙老象
-dapeng,大鹏金翅雕,shitou,佛教·护法,灵山,云程万里鹏·如来舅舅,取经路上最强妖怪
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+shitou,狮驼岭,shitou,shitou,狮驼岭,妖界,地点,,,
+liuer_7,盗贼,liuer,shitou,狮驼岭,人间,凡人,拦路强盗,被悟空打死,
+liuer,六耳猕猴事件,shitou,shitou,狮驼岭,妖界,地点,真假美猴王,如来识破,
+liuer_1,假八戒,liuer,shitou,狮驼岭,妖界,小妖,六耳猕猴所变,花果山假八戒,
+liuer_2,假唐僧,liuer,shitou,狮驼岭,妖界,小妖,六耳猕猴所变,花果山假唐僧,
+liuer_3,假沙僧,liuer,shitou,狮驼岭,妖界,小妖,猴精所变,被真沙僧打死,
+shitou,狮驼岭,shitou,shitou,狮驼岭,妖界,地点,青狮白象大鹏,势力浩大，城一国皆妖,
+shitou_2,白象大王,shitou,shitou,狮驼岭,妖界,妖怪·顶级,普贤菩萨坐骑,黄牙老象,
+shitou_3,青狮大王,shitou,shitou,狮驼岭,妖界,妖怪·顶级,文殊菩萨坐骑,青毛狮子,

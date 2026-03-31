@@ -1,5 +1,5 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-baoxiangguo,宝象国,,地点,人间,黄袍怪所在,掳百花羞公主
-baoxiang_king,宝象国王,baoxiangguo,人间·帝王,人间,宝象国王,
-huangpao,黄袍怪,baoxiangguo,天仙·星官,天庭,奎木狼,占碗子山波月洞
-baihuaxiu,百花羞公主,baoxiangguo,人间·公主,人间,百花羞公主,被掳
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+baoxiangguo,宝象国,baoxiangguo,baoxiangguo,宝象国,妖界,地点,,,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/宝象国国王.png
+baoxiangguo,宝象国,baoxiangguo,baoxiangguo,宝象国,人间,地点,黄袍怪所在,掳百花羞公主,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/宝象国国王.png
+baoxiangguo_1,宝象国国王,baoxiangguo,baoxiangguo,宝象国,人间,人间·帝王,宝象国王,人间角色，宝象国王，在取经路上与唐僧师徒相遇。,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/宝象国国王.png
+baoxiangguo_2,百花羞公主,baoxiangguo,baoxiangguo,宝象国,人间,人间·公主,百花羞公主,被掳,

@@ -1,3 +1,9 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-jinping,金平府,,地点,人间,慈云寺元宵灯会,三只犀牛精假冒佛爷骗香油
-jinping_monk,慈云寺僧人,jinping,人间·僧人,人间,慈云寺僧人,接待取经团队
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+jinping,金平府,jinping,jinping,金平府,妖界,地点,,,
+jinping,金平府,jinping,jinping,金平府,人间,地点,慈云寺元宵灯会,三只犀牛精假冒佛爷骗香油,
+jinping_1,慈云寺僧人,jinping,jinping,金平府,人间,人间·僧人,慈云寺僧人,接待取经团队,
+jinpingfu_tu,金平府/途中,jinping,jinping,金平府,其他,地点,,,
+xuanyingdong,青龙山玄英洞,jinping,jinping,金平府,妖界,地点,,三犀牛精巢穴,
+xuanyingdong_9,辟寒大王,xuanyingdong,jinping,金平府,其他,其他,,西游记中的国王，掌管金平府。,
+xuanyingdong_10,辟尘大王,xuanyingdong,jinping,金平府,其他,其他,,西游记中的国王，掌管金平府。,
+xuanyingdong_11,辟暑大王,xuanyingdong,jinping,金平府,其他,其他,,西游记中的国王，掌管金平府。,

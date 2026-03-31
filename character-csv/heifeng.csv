@@ -1,5 +1,9 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-heifeng,黑风山,,地点,妖界,黑熊精所在,黑熊精盗走袈裟
-wukong_heifeng,孙悟空,heifeng,斗战胜佛,人间,齐天大圣,讨要袈裟
-tangseng_heifeng,唐僧（玄奘）,wukong_heifeng,人间·圣僧,人间,大唐圣僧,袈裟被盗
-guanyin_heifeng,观音菩萨,heifeng,佛教·菩萨,灵山,南海观世音,收服黑熊精
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+heifeng,黑风山,heifeng,heifeng,黑风山,妖界,地点,,,
+heifeng,黑风山黑风洞,heifeng,heifeng,黑风山,妖界,地点,黑熊精所在,黑熊精盗走袈裟,
+heifeng_1,凌虚子,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/凌虚子_狼精.png
+heifeng_2,凌虚子/狼精,heifeng,heifeng,黑风山,黑风山,妖魔,道人,恶狼变的道人被悟空打死,
+heifeng_4,白衣秀士,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/白衣秀士_白蛇精.png
+heifeng_5,白衣秀士/白蛇精,heifeng,heifeng,黑风山,黑风山,妖魔,白蛇妖怪,被孙悟空一棒打死,
+heifeng_6,黑熊精,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/黑熊精.png
+heifeng_7,黑熊精/黑汉,heifeng,heifeng,黑风山,黑风山,妖魔,黑风洞主,偷袈裟后被菩萨收为守山大神,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/黑熊精.png

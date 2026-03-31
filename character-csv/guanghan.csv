@@ -1,5 +1,5 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-guanghan,广寒宫,,地点,天庭,月宫仙境,月宫仙境，传说为嫦娥所居
-taiyin,太阴星君,guanghan,天仙·星君,天庭,月宫之主·嫦娥,月宫之主
-zhubajie_guanghan,猪八戒,taiyin,净坛使者,人间,原天蓬元帅,原天蓬元帅，因醉酒调戏嫦娥被贬
-chijiao,赤脚大仙,guanghan,天仙,天庭,赤脚行走·性格随和,天庭中性格随和的神仙
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+guanghan,广寒宫,guanghan,guanghan,广寒宫,天庭,地点,,,
+guanghan,广寒宫,guanghan,guanghan,广寒宫,天庭,地点,月宫仙境,月宫仙境，传说为嫦娥所居,
+guanghan_1,太阴星君,guanghan,guanghan,广寒宫,天庭,天仙·星君,月宫之主·嫦娥,月宫之主,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/太阴星君.png
+guanghan_3,赤脚大仙,guanghan,guanghan,广寒宫,天庭,天仙,赤脚行走·性格随和,天庭中性格随和的神仙,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/赤脚大仙.png

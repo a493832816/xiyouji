@@ -1,4 +1,12 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-xiaoleiyinsi,小雷音寺,,地点,妖界,黄眉老佛所设假雷音,人种袋、金铙困住悟空
-huangmei,黄眉老佛,xiaoleiyinsi,佛教·护法,灵山,弥勒座前童子,所设假雷音
-miles_fo,弥勒佛,xiaoleiyinsi,佛教·未来佛,灵山,东来佛祖,收回黄眉
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+xiaoleiyinsi,小雷音寺,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,妖界,地点,,,
+xiaoleiyinsi,小雷音寺,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,妖界,地点,黄眉老佛所设假雷音,人种袋、金铙困住悟空,
+xiaoleiyinsi_1,三千谒谛,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_2,五百阿罗,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_4,优婆塞,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_5,优婆夷,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_6,八大金刚,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_12,地藏菩萨,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_20,比丘僧,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的僧人，在小雷音寺修行。,
+xiaoleiyinsi_21,比丘尼,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,其他,其他,,西游记中的角色，出现在取经路上。,
+xiaoleiyinsi_30,黄眉大王,xiaoleiyinsi,xiaoleiyinsi,小雷音寺,妖界,妖王,黄眉老佛,弥勒佛童子,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/黄眉大王.png

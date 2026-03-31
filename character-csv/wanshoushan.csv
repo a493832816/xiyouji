@@ -1,4 +1,3 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-wanshoushan,万寿山,,地点,天庭,五庄观所倚之山,取"万寿"与人参果延寿之意
-zhenyuan_wanshou,镇元大仙,wanshoushan,地仙·至尊,天庭,地仙之祖,
-nanjishouxing,南极寿星,wanshoushan,天仙·散仙,天庭,南极仙翁,头上有大肉包的老寿星
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+wanshoushan,万寿山,wanshoushan,wanshoushan,万寿山,妖界,地点,,,
+zhenyuan,镇元大仙,wanshoushan,wanshoushan,万寿山,地仙,地仙之祖,镇元子,地仙之祖，五庄观主人，人参果树守护者,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/镇元大仙.png

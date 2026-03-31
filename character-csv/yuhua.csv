@@ -1,5 +1,6 @@
-recordId,name,parentRecordId,rank,faction,title,desc
-yuhua,玉华州,,地点,人间,天竺下属州郡,三位王子拜悟空等为师
-yuhua_prince1,大王子,yuhua,人间·王子,人间,玉华州大王子,拜悟空为师
-yuhua_prince2,二王子,yuhua,人间·王子,人间,玉华州二王子,拜八戒为师
-yuhua_prince3,三王子,yuhua,人间·王子,人间,玉华州三王子,拜沙僧为师
+recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
+yuhua,玉华州,yuhua,yuhua,玉华州,妖界,地点,,,
+yuhua,玉华州,yuhua,yuhua,玉华州,人间,地点,天竺下属州郡,三位王子拜悟空等为师,
+yuhua_1,三王子,yuhua,yuhua,玉华州,人间,人间·王子,玉华州三王子,拜沙僧为师,
+yuhua_2,二王子,yuhua,yuhua,玉华州,人间,人间·王子,玉华州二王子,拜八戒为师,
+yuhua_3,大王子,yuhua,yuhua,玉华州,人间,人间·王子,玉华州大王子,拜悟空为师,
