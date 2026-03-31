@@ -1,11 +1,11 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 wuji,乌鸡国,wuji,wuji,乌鸡国,妖界,地点,,,
-biqiu,比丘国,wuji,wuji,乌鸡国,人间,地点,又名小子城,国王欲取小儿心肝,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E6%AF%94%E4%B8%98%E5%9B%BD.png
-biqiu_10,国丈,biqiu,wuji,乌鸡国,妖界,妖王,白鹿精,老寿星脚力,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E5%9B%BD%E4%B8%88.png
-biqiu_19,比丘国国王,biqiu,wuji,乌鸡国,人间,人间·帝王,比丘国王,昏庸无道,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E6%AF%94%E4%B8%98%E5%9B%BD%E5%9B%BD%E7%8E%8B.png
-biqiu_30,白面狐狸,biqiu,wuji,乌鸡国,妖界,妖后,白面狐狸精,迷惑国王,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E7%99%BD%E9%9D%A2%E7%8B%90%E7%8B%B8.png
+biqiu,比丘国,wuji,wuji,乌鸡国,人间,地点,又名小子城,国王欲取小儿心肝,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E6%AF%94%E4%B8%98%E5%9B%BD.png
+biqiu_10,国丈,biqiu,wuji,乌鸡国,妖界,妖王,白鹿精,老寿星脚力,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E5%9B%BD%E4%B8%88.png
+biqiu_19,比丘国国王,biqiu,wuji,乌鸡国,人间,人间·帝王,比丘国王,昏庸无道,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E6%AF%94%E4%B8%98%E5%9B%BD%E5%9B%BD%E7%8E%8B.png
+biqiu_30,白面狐狸,biqiu,wuji,乌鸡国,妖界,妖后,白面狐狸精,迷惑国王,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E7%99%BD%E9%9D%A2%E7%8B%90%E7%8B%B8.png
 biqiu_31,白鹿精,biqiu,wuji,乌鸡国,其他,其他,,西游记中的角色，出现在取经路上。,
-mieguo_1,灭法国王,wuji,wuji,乌鸡国,人间,人间·帝王,国王,杀和尚凑万数,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E7%81%AD%E6%B3%95%E5%9B%BD%E7%8E%8B.png
+mieguo_1,灭法国王,wuji,wuji,乌鸡国,人间,人间·帝王,国王,杀和尚凑万数,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E7%81%AD%E6%B3%95%E5%9B%BD%E7%8E%8B.png
 mieguo_2,赵寡妇,wuji,wuji,乌鸡国,人间,人间·平民,店主,唐僧师徒化装投宿其店,
 baolinsi,宝林寺,wuji,wuji,乌鸡国,人间,地点,,乌鸡国国王鬼魂托梦处,
 baolinsi_1,众僧,baolinsi,wuji,乌鸡国,其他,其他,,西游记中的僧人，在乌鸡国修行。,

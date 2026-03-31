@@ -1,11 +1,11 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
-zhuzi,朱紫国,zhuzi,zhuzi,朱紫国,妖界,地点,,,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD.png
-zhuzi,朱紫国,zhuzi,zhuzi,朱紫国,人间,地点,国王失魂致病,悟空悬丝诊脉,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD.png
+zhuzi,朱紫国,zhuzi,zhuzi,朱紫国,妖界,地点,,,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD.png
+zhuzi,朱紫国,zhuzi,zhuzi,朱紫国,人间,地点,国王失魂致病,悟空悬丝诊脉,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD.png
 zhuzi_1,先锋,zhuzi,zhuzi,朱紫国,妖界,小妖,赛太岁先锋,被悟空打败,
 zhuzi_4,春娇,zhuzi,zhuzi,朱紫国,妖界,小妖,娘娘贴身丫环,悟空变化所成,
 zhuzi_5,有来有去,zhuzi,zhuzi,朱紫国,妖界,小妖,赛太岁部下,被悟空打死,
-zhuzi_6,朱紫国国王,zhuzi,zhuzi,朱紫国,人间,人间·帝王,朱紫国王,失魂致病三年,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD%E5%9B%BD%E7%8E%8B.png
-zhuzi_10,赛太岁,zhuzi,zhuzi,朱紫国,妖界,妖王,麒麟山獬豸洞主,金毛犼所化,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E8%B5%9B%E5%A4%AA%E5%B2%81.png
+zhuzi_6,朱紫国国王,zhuzi,zhuzi,朱紫国,人间,人间·帝王,朱紫国王,失魂致病三年,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E6%9C%B1%E7%B4%AB%E5%9B%BD%E5%9B%BD%E7%8E%8B.png
+zhuzi_10,赛太岁,zhuzi,zhuzi,朱紫国,妖界,妖王,麒麟山獬豸洞主,金毛犼所化,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/%E8%B5%9B%E5%A4%AA%E5%B2%81.png
 zhuzi_11,金圣宫娘娘,zhuzi,zhuzi,朱紫国,人间,人间·后妃,朱紫国王后,被赛太岁掳走,
 zhuzi_gong,朱紫国皇宫,zhuzi,zhuzi,朱紫国,其他,地点,,,
 zhuzi_guan,朱紫国会同馆,zhuzi,zhuzi,朱紫国,其他,地点,,,
