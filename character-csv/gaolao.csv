@@ -1,8 +1,8 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 gaolao,高老庄,gaolao,gaolao,高老庄,妖界,地点,,,
 gaolao,高老庄,gaolao,gaolao,高老庄,人间,地点,猪八戒入赘地,猪八戒曾在此入赘为婿,
-gaolao_3,猪八戒,gaolao,gaolao,高老庄,其他,其他,,原天蓬元帅，因醉酒调戏嫦娥被贬错投猪胎，好色贪吃但关键时刻仍能发挥作用。,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/猪八戒.png
-gaolao_4,猪八戒/猪悟能,gaolao,gaolao,高老庄,人间,净坛使者,原天蓬元帅,入赘三年后被收服,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/猪八戒.png
+gaolao_3,猪八戒,gaolao,gaolao,高老庄,其他,其他,,原天蓬元帅，因醉酒调戏嫦娥被贬错投猪胎，好色贪吃但关键时刻仍能发挥作用。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/猪八戒.png
+gaolao_4,猪八戒/猪悟能,gaolao,gaolao,高老庄,人间,净坛使者,原天蓬元帅,入赘三年后被收服,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/猪八戒_猪悟能.png
 gaolao_5,玉兰,gaolao,gaolao,高老庄,人间,人间·女子,高太公二女儿,已嫁本庄人家,
 gaolao_6,翠兰,gaolao,gaolao,高老庄,人间,人间·女子,高太公三女儿,被猪八戒关在后宅,
 gaolao_8,香兰,gaolao,gaolao,高老庄,人间,人间·女子,高太公大女儿,已嫁本庄人家,

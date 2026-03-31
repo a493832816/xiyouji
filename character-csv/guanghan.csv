@@ -1,5 +1,5 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 guanghan,广寒宫,guanghan,guanghan,广寒宫,天庭,地点,,,
 guanghan,广寒宫,guanghan,guanghan,广寒宫,天庭,地点,月宫仙境,月宫仙境，传说为嫦娥所居,
-guanghan_1,太阴星君,guanghan,guanghan,广寒宫,天庭,天仙·星君,月宫之主·嫦娥,月宫之主,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/太阴星君.png
-guanghan_3,赤脚大仙,guanghan,guanghan,广寒宫,天庭,天仙,赤脚行走·性格随和,天庭中性格随和的神仙,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/赤脚大仙.png
+guanghan_1,太阴星君,guanghan,guanghan,广寒宫,天庭,天仙·星君,月宫之主·嫦娥,月宫之主,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/太阴星君.png
+guanghan_3,赤脚大仙,guanghan,guanghan,广寒宫,天庭,天仙,赤脚行走·性格随和,天庭中性格随和的神仙,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/赤脚大仙.png

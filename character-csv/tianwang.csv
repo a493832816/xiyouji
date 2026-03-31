@@ -2,9 +2,9 @@ recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 tianwang,天王殿,tianwang,tianwang,天王殿,天庭,地点,,,
 tianwang,天王殿,tianwang,tianwang,天王殿,天庭,地点,南天门内要隘,南天门内要隘，四大天王率部镇守,
 tianwang_1,侦测系统,tianwang,tianwang,天王殿,天庭,天仙·侦测,情报侦察,情报侦察系统,
-tianwang_2,千里眼,tianwang,tianwang,天王殿,天庭,天仙·侦测,千里眼·高明,能看千里之外,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/千里眼.png
-tianwang_3,哪吒,tianwang,tianwang,天王殿,天庭,天仙·武将,中坛元帅,天庭最强少年战神,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/哪吒.png
-tianwang_4,托塔天王李靖,tianwang,tianwang,天王殿,天庭,天仙·武将,降魔大元帅,天庭军事统帅,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/托塔天王李靖.png
+tianwang_2,千里眼,tianwang,tianwang,天王殿,天庭,天仙·侦测,千里眼·高明,能看千里之外,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/千里眼.png
+tianwang_3,哪吒,tianwang,tianwang,天王殿,天庭,天仙·武将,中坛元帅,天庭最强少年战神,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/哪吒.png
+tianwang_4,托塔天王李靖,tianwang,tianwang,天王殿,天庭,天仙·武将,降魔大元帅,天庭军事统帅,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/托塔天王李靖.png
 tianwang_5,气象系统,tianwang,tianwang,天王殿,天庭,天仙·天象,风雨雷电,天庭气象体系,
 tianwang_6,电母,tianwang,tianwang,天王殿,天庭,天仙·天象,掌管闪电,与雷公搭档掌管闪电,https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230146d43b8bf45e18e684_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=Y%2B4k0jTQiZJxLdGLgf8%2F6KEVYg%3D&Expires=1775401333
 tianwang_7,雨师,tianwang,tianwang,天王殿,天庭,天仙·天象,掌管雨,掌管天下之雨,https://maas-watermark-prod-new.cn-wlcb.ufileos.com/20260329230257ba2b40c9be334a68_watermark.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=n3m%2BBkGK0V3fpKjLHSvSvBMmHc%3D&Expires=1775401404

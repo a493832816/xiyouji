@@ -1,5 +1,5 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 wuzhuang,五庄观,wuzhuang,wuzhuang,五庄观,地仙,地点,,万寿山福地五庄观洞天，地仙祖庭,
-zhenyuan,镇元大仙,wuzhuang,wuzhuang,五庄观,地仙,地仙之祖,镇元子,地仙之祖，与悟空结拜为兄弟,https://raw.githubusercontent.com/a493832816/xiyouji/dev/assets/characters/镇元大仙.png
+zhenyuan,镇元大仙,wuzhuang,wuzhuang,五庄观,地仙,地仙之祖,镇元子,地仙之祖，与悟空结拜为兄弟,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/镇元大仙.png
 qingfeng,清风,zhenyuan,wuzhuang,五庄观,地仙,仙童,镇元子弟子,一千三百二十岁,
 mingyue,明月,zhenyuan,wuzhuang,五庄观,地仙,仙童,镇元子弟子,一千二百岁,
