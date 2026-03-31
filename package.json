@@ -1,0 +1,21 @@
+{
+  "name": "xiyouji-map",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "西游记人物地图交互可视化",
+  "scripts": {
+    "dev": "npx serve . -l 8080",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:browser": "npx serve . -l 8080",
+    "lint": "eslint src/",
+    "verify": "./.hades/contracts/verify.sh",
+    "build": "rm -rf dist && mkdir -p dist && cp -r src dist/ && cp -r styles dist/ && cp index.html dist/ && cp character-data.json dist/ && cp *.jpg dist/ 2>/dev/null",
+    "deploy": "npm run build && echo '部署完成'"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "eslint": "^8.57.0"
+  },
+  "keywords": ["journey-to-the-west", "map", "interactive", "visualization"]
+}

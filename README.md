@@ -64,11 +64,14 @@
 ## 运行
 
 ```bash
-# Python
-python -m http.server 8080
+# 安装依赖
+npm install
 
-# Node.js
-npx serve .
+# 开发模式
+npm run dev
+
+# 运行测试
+npm test
 ```
 
 然后访问 http://localhost:8080
@@ -76,7 +79,7 @@ npx serve .
 ## 技术栈
 
 - 纯前端：HTML + CSS + JavaScript ES Modules
-- 无框架依赖
+- Vitest 单元测试
 - SVG 矢量图层
 - 支持触屏交互
 
@@ -85,7 +88,10 @@ npx serve .
 ```
 xiyouji/
 ├── index.html              # 主页面
-├── scripts/
+├── HARNESS.md              # 项目控制逻辑
+├── SPEC.md                 # 需求文档
+├── AGENTS.md               # 角色定义
+├── src/                    # 源码
 │   ├── main.js            # 入口文件
 │   ├── poi-data.js        # 地图数据
 │   ├── map-renderer.js    # 渲染模块
@@ -94,10 +100,15 @@ xiyouji/
 ├── styles/
 │   ├── base.css
 │   ├── map.css
-│   └── poi.css
+│   ├── poi.css
+│   └── character-panel.css
+├── tests/
+│   ├── unit/              # Vitest 单元测试
+│   └── browser/           # 浏览器测试
+├── memory/                 # 持久化状态
+├── .hades/contracts/       # 验证脚本
 ├── character-csv/         # 按地点拆分的人物CSV
-├── character-data.json    # 完整人物数据
-└── tests/                 # 测试文件
+└── character-data.json    # 完整人物数据
 ```
 
 ## TODO

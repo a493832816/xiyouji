@@ -1,0 +1,45 @@
+{
+  "project": "xiyouji",
+  "created": "2026-03-31",
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "搭建 HARNESS 结构",
+      "status": "completed",
+      "attempts": 1,
+      "priority": "high",
+      "assignee": "Architect"
+    },
+    {
+      "id": "T002",
+      "title": "迁移 scripts/ 到 src/",
+      "status": "completed",
+      "priority": "high",
+      "assignee": "Coder",
+      "depends_on": ["T001"]
+    },
+    {
+      "id": "T003",
+      "title": "配置 Vitest 测试框架",
+      "status": "completed",
+      "priority": "high",
+      "assignee": "Coder",
+      "depends_on": ["T002"]
+    },
+    {
+      "id": "T004",
+      "title": "编写 poi-data.js 单元测试",
+      "status": "completed",
+      "priority": "medium",
+      "assignee": "Coder",
+      "depends_on": ["T003"]
+    },
+    {
+      "id": "T005",
+      "title": "添加 ESLint 配置",
+      "status": "pending",
+      "priority": "low",
+      "assignee": "Coder"
+    }
+  ]
+}
