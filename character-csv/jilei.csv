@@ -1,6 +1,6 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 jilei,积雷山,jilei,jilei,积雷山,妖界,地点,,,
 jileishan,积雷山摩云洞,jilei,jilei,积雷山,其他,地点,,,
-jileishan_2,牛魔王,jileishan,jilei,积雷山,妖界,妖王,平天大圣,西游记中的妖王，平天大圣，曾在取经路上阻拦唐僧师徒。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/牛魔王.png
-jileishan_3,玉面公主,jileishan,jilei,积雷山,其他,其他,,西游记中的公主，积雷山之女。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/玉面公主.png
+jileishan_2,牛魔王,jileishan,jilei,积雷山,妖界,妖王,平天大圣,西游记中的妖王，平天大圣，曾在取经路上阻拦唐僧师徒。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E7%89%9B%E9%AD%94%E7%8E%8B.png
+jileishan_3,玉面公主,jileishan,jilei,积雷山,其他,其他,,西游记中的公主，积雷山之女。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E7%8E%89%E9%9D%A2%E5%85%AC%E4%B8%BB.png
 jilei,积雷山,jilei,jilei,积雷山,妖界,地点,牛魔王旧居,牛魔王与铁扇公主旧居一带,

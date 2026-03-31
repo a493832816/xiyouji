@@ -1,9 +1,9 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 heifeng,黑风山,heifeng,heifeng,黑风山,妖界,地点,,,
 heifeng,黑风山黑风洞,heifeng,heifeng,黑风山,妖界,地点,黑熊精所在,黑熊精盗走袈裟,
-heifeng_1,凌虚子,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/凌虚子.png
+heifeng_1,凌虚子,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E5%87%8C%E8%99%9A%E5%AD%90.png
 heifeng_2,凌虚子/狼精,heifeng,heifeng,黑风山,黑风山,妖魔,道人,恶狼变的道人被悟空打死,
-heifeng_4,白衣秀士,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/白衣秀士.png
+heifeng_4,白衣秀士,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E7%99%BD%E8%A1%A3%E7%A7%80%E5%A3%AB.png
 heifeng_5,白衣秀士/白蛇精,heifeng,heifeng,黑风山,黑风山,妖魔,白蛇妖怪,被孙悟空一棒打死,
-heifeng_6,黑熊精,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/黑熊精.png
-heifeng_7,黑熊精/黑汉,heifeng,heifeng,黑风山,黑风山,妖魔,黑风洞主,偷袈裟后被菩萨收为守山大神,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/黑熊精_黑汉.png
+heifeng_6,黑熊精,heifeng,heifeng,黑风山,其他,其他,,西游记中的角色，出现在取经路上。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E9%BB%91%E7%86%8A%E7%B2%BE.png
+heifeng_7,黑熊精/黑汉,heifeng,heifeng,黑风山,黑风山,妖魔,黑风洞主,偷袈裟后被菩萨收为守山大神,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E9%BB%91%E7%86%8A%E7%B2%BE_%E9%BB%91%E6%B1%89.png

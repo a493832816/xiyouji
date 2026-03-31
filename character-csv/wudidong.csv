@@ -2,8 +2,8 @@ recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 wudidong,无底洞,wudidong,wudidong,无底洞,妖界,地点,,,
 wudidong,无底洞,wudidong,wudidong,无底洞,妖界,地点,金鼻白毛老鼠精,自称半截观音,
 wudidong_4,小妖精,wudidong,wudidong,无底洞,小妖,妖怪,妖界,洞中众多小妖,
-wudidong_8,老鼠精,wudidong,wudidong,无底洞,妖界,妖王,金鼻白毛老鼠精,西游记中的妖王，金鼻白毛老鼠精，曾在取经路上阻拦唐僧师徒。,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/老鼠精.png
-wudidong_9,金鼻白毛老鼠精,wudidong,wudidong,无底洞,妖界,妖怪·顶级,托塔天王义女,洞深难测,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/金鼻白毛老鼠精.png
+wudidong_8,老鼠精,wudidong,wudidong,无底洞,妖界,妖王,金鼻白毛老鼠精,西游记中的妖王，金鼻白毛老鼠精，曾在取经路上阻拦唐僧师徒。,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E8%80%81%E9%BC%A0%E7%B2%BE.png
+wudidong_9,金鼻白毛老鼠精,wudidong,wudidong,无底洞,妖界,妖怪·顶级,托塔天王义女,洞深难测,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E9%87%91%E9%BC%BB%E7%99%BD%E6%AF%9B%E8%80%81%E9%BC%A0%E7%B2%BE.png
 zhenhais_2,喇嘛和尚,wudidong,wudidong,无底洞,其他,其他,,西游记中的僧人，在无底洞修行。,
 zhenhais_6,老和尚,wudidong,wudidong,无底洞,其他,其他,,西游记中的僧人，在无底洞修行。,
 zhenhais_9,镇海寺喇嘛,wudidong,wudidong,无底洞,佛寺,人间·僧人,寺院主持,接待唐僧师徒,

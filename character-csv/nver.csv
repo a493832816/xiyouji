@@ -1,7 +1,7 @@
 recordId,name,parentRecordId,poiId,poiName,faction,rank,title,desc,image
 nver,女儿国,nver,nver,女儿国,妖界,地点,,,
 nver,西梁女国,nver,nver,女儿国,人间,地点,举国皆女,女王欲招唐僧为夫,
-nver_1,西梁女王,nver,nver,女儿国,人间,人间·帝王,女儿国国王,欲招唐僧为夫,https://gitee.com/frank_huli/imagesbed/raw/master/xiyouji/characters/西梁女王.png
+nver_1,西梁女王,nver,nver,女儿国,人间,人间·帝王,女儿国国王,欲招唐僧为夫,https://cdn.jsdelivr.net/gh/a493832816/xiyouji@dev/assets/characters/%E8%A5%BF%E6%A2%81%E5%A5%B3%E7%8E%8B.png
 nverguo_cun,西粱女国村舍,nver,nver,女儿国,其他,地点,,,
 nverguo_cun_1,老婆婆,nverguo_cun,nver,女儿国,其他,其他,,西游记中的角色，出现在取经路上。,
 yingyangtai,迎阳台/照胎泉,nver,nver,女儿国,其他,地点,,,
